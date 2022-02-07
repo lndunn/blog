@@ -36,8 +36,8 @@
     <link rel="shortcut icon" href="../../_static/tree.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Workshops" href="../../workshops/index.html" />
-    <link rel="prev" title="Accessing EKG Data" href="ekg-data.html" />
+    <link rel="next" title="Monitoring" href="monitoring.html" />
+    <link rel="prev" title="Data" href="index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -78,15 +78,27 @@
       
       <div class="navbar-center-item">
         <ul id="navbar-main-elements" class="navbar-nav">
-    <li class="toctree-l1 current active nav-item">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../home/index.html">
+  Blog Home
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
  <a class="reference internal nav-link" href="../index.html">
-  Blog Posts
+  Posts
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../../workshops/index.html">
   Workshops
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../tutorials/index.html">
+  Tutorials
  </a>
 </li>
 
@@ -149,24 +161,41 @@
  </span>
 </p>
 <ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="index.html">
+   Data
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Wide Area Events
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="monitoring.html">
+     Monitoring
+    </a>
+   </li>
+  </ul>
+ </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../analysis/index.html">
    Analytics
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
-  <label for="toctree-checkbox-1">
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../analysis/angle-differencing.html">
-     All the Angles
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../analysis/data-quality.html">
-     See it in the data
+    <a class="reference internal" href="../analysis/spectral-analysis.html">
+     Spectral Analysis (part 1)
     </a>
    </li>
    <li class="toctree-l2">
@@ -175,80 +204,152 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../analysis/frequency-filters.html">
-     Why frequency deviates from 60 Hz
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../analysis/linear-models-overview.html">
-     Linear Modeling Process Overview
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../analysis/phase-imbalance.html">
-     What to look for in the data
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../analysis/power-factor.html">
-     Complex Power &amp; Power Factor
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../analysis/spectral-analysis.html">
-     References
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../analysis/symmetrical-components.html">
-     References
+    <a class="reference internal" href="../analysis/angle-differencing.html">
+     Angle Differencing
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../analysis/tap-change.html">
-     What a tap changer does
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../analysis/visualizing-phasor-timeseries.html">
-     Stream Selection
+     Counting tap changer operations
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../analysis/voltage-sags.html">
-     Finding Voltage Sags
+     Voltage Sag Safari
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../analysis/benchmarking-results.html">
+     Benchmarking Results
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../analysis/symmetrical-components.html">
+     Symmetrical Components
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../analysis/what-is-the-angle-1.html">
+     What’s the Angle? (Part 1)
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../analysis/what-is-the-angle-2.html">
+     What’s the Angle? (Part 2)
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../analysis/whats-in-a-phasor.html">
-     What’s in a Phasor
+     What is a Phasor?
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../analysis/visualizing-phasor-timeseries.html">
+     Visualizing Phasor Timeseries with matplotlib
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../analysis/power-factor.html">
+     Power Factor Analysis
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../analysis/linear-models-overview.html">
+     Training Linear Models
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../analysis/blue-cut-fire.html">
+     Blue Cut Fire
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../analysis/btrdb-queries-pt1.html">
+     Memory Efficient Queries (Part 1)
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../analysis/btrdb-queries-pt2.html">
+     Memory Efficient Queries (Part 2)
     </a>
    </li>
   </ul>
  </li>
- <li class="toctree-l1 current active has-children">
-  <a class="reference internal" href="index.html">
-   Data Sets
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../thoughts/index.html">
+   Commentary
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-  <label for="toctree-checkbox-2">
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul class="current">
+  <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="blue-cut-fire.html">
-     Calculating Frequency from Unwrapped Phase
+    <a class="reference internal" href="../thoughts/fire-season.html">
+     Fire season is just around the corner
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="ekg-data.html">
-     Accessing EKG Data
+    <a class="reference internal" href="../thoughts/pmu-siting-2.html">
+     Choosing where to site distribution PMUs
     </a>
    </li>
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
-     Wide Area Events
+   <li class="toctree-l2">
+    <a class="reference internal" href="../thoughts/sunshine-data.html">
+     A brief walkthrough of the Sunshine uPMU dataset
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../thoughts/btrdb-explained.html">
+     BTrDB Explained
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../thoughts/ekg-data.html">
+     On EKG Data
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../ni4ai/index.html">
+   Get Involved in NI4AI
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../ni4ai/demo-1.html">
+     Demo (Part 2): Exploring Data in “The Plotter”
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../ni4ai/demo-2.html">
+     Demo (Part 2): Establishing an API Connection
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../ni4ai/add-sensors.html">
+     Stream Data to NI4AI
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../ni4ai/language-bindings-survey.html">
+     Language Bindings
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../ni4ai/democratizing-data.html">
+     Democratizing Grid Data
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../ni4ai/expertise-for-experts.html">
+     Expertise for Experts
     </a>
    </li>
   </ul>
@@ -293,10 +394,10 @@
 <section class="tex2jax_ignore mathjax_ignore" id="wide-area-events">
 <h1>Wide Area Events<a class="headerlink" href="#wide-area-events" title="Permalink to this headline">¶</a></h1>
 <p><em>Laurel Dunn</em></p>
-<p>The “events” collection includes measurement data recorded by transmission PMUs during various events on the transmission grid.</p>
-<p>These data have been anonymized by removing details about the geography of the sensors or the assets they’re connected to. We’ve changed the time stamps, so the events themselves can’t be identified.</p>
-<p>The data can be used to explore signal processing techniques for detecting events and for studying how events propagate across a broad geographic area of the grid.</p>
-<p>For each event, the data includes two minutes of PMU measurements recorded across 23 sensors. The sensors report three-phase voltage and current at each measurement node. The data set includes two switching events and an oscillation.</p>
+<p>The “events” collection includes measurement data recorded by transmission PMUs during various events on the transmission grid. These include a sub-synchronous wide-area oscillation, and two switching events.</p>
+<p>These data have been anonymized by removing details about the geography of the sensors or the assets they’re connected to. We’ve also changed the time stamps, so the events themselves can’t be identified. Voltage and current measurements are reported in per-unit notation (i.e., normalized based on their nominal values).</p>
+<p>The data can be used to explore signal processing techniques for detecting events and for studying how events propagate throughout the transmission system.</p>
+<p>For each event, the data includes two minutes of PMU measurements recorded across 23 sensors. The sensors report three-phase voltage and current at each measurement node.</p>
 </section>
 
 
@@ -305,17 +406,17 @@
               
               <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="ekg-data.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="index.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Accessing EKG Data</p>
+            <p class="prev-next-title">Data</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="../../workshops/index.html" title="next page">
+    <a class='right-next' id="next-link" href="monitoring.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Workshops</p>
+        <p class="prev-next-title">Monitoring</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
