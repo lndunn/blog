@@ -15,7 +15,7 @@ We start with a short video demonstrating **The Plotter**, and then jump into a 
 
 .. toctree::
    :caption: API Use
-   :maxdepth: 2
+   :maxdepth: 1
 
    collections
    streams
