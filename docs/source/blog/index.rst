@@ -1,12 +1,11 @@
 ==========
-Blog
+Learn
 ==========
 
 .. toctree::
    :caption: Learn more about the platform, data, and applications.
    :maxdepth: 1
 
-   data/index
    platform/index
    analysis/index
    commentary/index

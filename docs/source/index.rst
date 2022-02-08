@@ -9,29 +9,24 @@ Welcome to the NI4AI Blog!
 
 About NI4AI
 ===========
-**Short for:** A National Infrastructure for AI on the Grid
+A National Infrastructure for AI on the Grid is an ARPA-E funded project designed to advance AI/ML for the electric grid.
 
 **Contributors:** PingThings and UC Berkeley
 
-**Community:** Anyone interested in time series data and analytics for the electric grid
-
-**Funding:** ARPA-E Open Innovation 2018
+**Users:** Anyone interested in real-world grid measurement data
 
 **Directives:**
 
-1. Provide open access to PingThings PredictiveGrid platform.
-2. Provide open access to real-world sensor measurements generated on the electric grid.
-3. Build community by creating content to advance data analytis for the electric grid.
+1. Provide open access to PingThings' PredictiveGrid time series data platform.
+2. Provide open access to real-world sensor measurement data generated on the electric grid.
+3. Build community around the advancement of data analytis for the electric grid.
 
 .. toctree::
    :caption: Learn More
    :maxdepth: 1
 
    quickstart/index
+   data/index
    blog/index
    workshops/index
    tutorials/index
-
-.. meta::
-    :description lang=en:
-        Educational content designed to build familiarity with synchrophasor and time series data analysis methods.

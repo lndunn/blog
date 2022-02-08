@@ -55,7 +55,7 @@ html_favicon = '_static/tree.ico'
 html_theme_options = {
     "external_links": [
         {"url": "https://btrdb.readthedocs.io/en/latest/", "name": "API Docs"},
-        {"url": "https://github.com/PingThingsIO/ni4ai-notebooks/tree/main/tutorials", "name": "Tutorials"},
+        {"url": "https://github.com/PingThingsIO/ni4ai-notebooks/", "name": "Github"},
         {"url": "https://www.pingthings.io/", "name": "PingThings"},
     ],
     "github_url": "https://github.com/PingThingsIO/ni4ai-notebooks",
