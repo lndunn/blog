@@ -1,5 +1,5 @@
 
-Workshops
+Watch
 ===========
 NI4AI has hosted several workshops about PMU data analysis methods, applications, and best practices. Here, you'll find video recordings of past workshopws.
 

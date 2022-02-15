@@ -63,11 +63,11 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "# Stream Basics\n",
+    "## Stream Basics\n",
     "\n",
     "Streams contain actual points of data and you can query the time series values in a number of ways.  But first, let's look at the Stream metadata for a better understanding of what is available.\n",
     "\n",
-    "## Metadata Properties\n",
+    "### Metadata Properties\n",
     "\n",
     "As discussed in the previous notebook, a stream has its own metadata properties such as its `collection` or `uuid`.  Let's start by defining each read-only property.\n",
     "\n",
@@ -103,7 +103,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "## Metadata Methods\n",
+    "### Metadata Methods\n",
     "\n",
     "In addition to the metadata properties above, each stream has a set of metadata methods.  This information is provided as instance methods to indicate that they typically require a round-trip to the server and may change often.\n",
     "\n",
@@ -157,7 +157,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "## Metadata Example\n",
+    "### Metadata Example\n",
     "\n",
     "As with the collections, we can write a simple helper method to display information about a Stream."
    ]
@@ -210,7 +210,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "## Stream Version\n",
+    "### Stream Version\n",
     "\n",
     "Remember that the version of a stream changes whenever data is modified (though not when metadata is modified).  This is especially useful on live data such that you can pin all of your queries to a specific version of your data.  Otherwise, you could potentially get constantly changing statistics as new data is appended or older data arrives out of order.\n",
     "\n",
@@ -221,7 +221,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "# Viewing Data\n",
+    "## Viewing Data\n",
     "\n",
     "Most likely you are interested in examining the stored values in each time series stream.  This is fairly straightforward though it is important to note that the time series values are actually provided in a `RawPoint` class which has `time` and `value` attributes.\n",
     "\n",
@@ -382,7 +382,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "# Windowed Data\n",
+    "## Windowed Data\n",
     "\n",
     "Aside from viewing the raw values, we can also query windows of data.  Windowed queries return `StatPoint` values that contain aggregations of the data in each window rather than individual `RawPoint` values.  Each `StatPoint` contains attributes for the minimum, maximum, mean, and standard deviation of the values in each window. StatPoints also report the number of raw points (i.e., the count) and the start time of the window.  You can find more information about windowing data in the [docs](https://btrdb.readthedocs.io/en/latest/working/stream-view-data.html#view-windows-of-data) or view the [API](https://btrdb.readthedocs.io/en/latest/api/streams.html) reference.\n",
     "\n",
@@ -555,7 +555,7 @@
  ],
  "metadata": {
   "kernelspec": {
-   "display_name": "Python 3",
+   "display_name": "Python 3 (ipykernel)",
    "language": "python",
    "name": "python3"
   },
@@ -569,7 +569,7 @@
    "name": "python",
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
-   "version": "3.7.3"
+   "version": "3.9.7"
   }
  },
  "nbformat": 4,

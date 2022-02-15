@@ -87,30 +87,32 @@
 </li>
 
 <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../data/index.html">
+  Data
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../blog/index.html">
-  Posts
+  Learn
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../workshops/index.html">
-  Workshops
+  Watch
  </a>
 </li>
 
 <li class="toctree-l1 current active nav-item">
  <a class="reference internal nav-link" href="index.html">
-  Tutorials
+  Code
  </a>
 </li>
 
     
     <li class="nav-item">
         <a class="nav-link nav-external" href="https://btrdb.readthedocs.io/en/latest/">API Docs<i class="fas fa-external-link-alt"></i></a>
-    </li>
-    
-    <li class="nav-item">
-        <a class="nav-link nav-external" href="https://github.com/PingThingsIO/ni4ai-notebooks/tree/main/tutorials">Tutorials<i class="fas fa-external-link-alt"></i></a>
     </li>
     
     <li class="nav-item">
@@ -192,7 +194,7 @@
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../blog/index.html">
-   Posts
+   Learn
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -201,8 +203,8 @@
   </label>
   <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../blog/data/index.html">
-     Data
+    <a class="reference internal" href="../blog/platform/index.html">
+     Platform
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
     <label for="toctree-checkbox-2">
@@ -211,13 +213,33 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/data/events.html">
-       Wide Area Events
+      <a class="reference internal" href="../blog/platform/plotter-demo.html">
+       Plotter Demo
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/data/monitoring.html">
-       Monitoring
+      <a class="reference internal" href="../blog/platform/api-demo.html">
+       Demo: Connecting to the API
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-explained.html">
+       BTrDB Explained
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-queries-pt1.html">
+       Memory Efficient BTrDB Queries: Part 1
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-queries-pt2.html">
+       Memory Efficient BTrDB Queries: Part 2
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/benchmarking-results.html">
+       PredictiveGrid Benchmarks
       </a>
      </li>
     </ul>
@@ -232,6 +254,11 @@
      </i>
     </label>
     <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/analysis/quadrature-demodulation.html">
+       Harmonic Phasor Estimation with Quadrature Demodulation
+      </a>
+     </li>
      <li class="toctree-l3">
       <a class="reference internal" href="../blog/analysis/spectral-analysis.html">
        Spectral Analysis (part 1)
@@ -315,7 +342,7 @@
     </ul>
    </li>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../blog/thoughts/index.html">
+    <a class="reference internal" href="../blog/commentary/index.html">
      Commentary
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
@@ -325,27 +352,17 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/fire-season.html">
+      <a class="reference internal" href="../blog/commentary/fire-season.html">
        Fire season is just around the corner
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/pmu-siting-2.html">
+      <a class="reference internal" href="../blog/commentary/pmu-siting-2.html">
        Choosing where to site distribution PMUs
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/sunshine-data.html">
-       A brief walkthrough of the Sunshine uPMU dataset
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/btrdb-explained.html">
-       BTrDB Explained
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/ekg-data.html">
+      <a class="reference internal" href="../blog/commentary/ekg-data.html">
        On EKG Data
       </a>
      </li>
@@ -361,16 +378,6 @@
      </i>
     </label>
     <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/ni4ai/demo-1.html">
-       Demo (Part 2): Exploring Data in “The Plotter”
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/ni4ai/demo-2.html">
-       Demo (Part 2): Establishing an API Connection
-      </a>
-     </li>
      <li class="toctree-l3">
       <a class="reference internal" href="../blog/ni4ai/add-sensors.html">
        Stream Data to NI4AI
@@ -391,13 +398,18 @@
        Expertise for Experts
       </a>
      </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/ni4ai/sunshine-data.html">
+       A brief walkthrough of the Sunshine uPMU dataset
+      </a>
+     </li>
     </ul>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../workshops/index.html">
-   Workshops
+   Watch
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
   <label for="toctree-checkbox-6">
@@ -434,7 +446,7 @@
  </li>
  <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="index.html">
-   Tutorials
+   Code
   </a>
   <input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
   <label for="toctree-checkbox-7">
@@ -443,8 +455,8 @@
   </label>
   <ul class="current">
    <li class="toctree-l2">
-    <a class="reference internal" href="plotter-demo.html">
-     Plotter Demo Video
+    <a class="reference internal" href="quickstart.html">
+     0 - PredictiveGrid in Python
     </a>
    </li>
    <li class="toctree-l2">
@@ -464,7 +476,7 @@
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="plots.html">
-     Basic Plots
+     4 - Basic Plots
     </a>
    </li>
    <li class="toctree-l2">
@@ -492,6 +504,11 @@
      9 - Visualizing Aggregates
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ingestion.html">
+     10 - Data Ingestion
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toctree-l1">
@@ -516,6 +533,11 @@
    NI4AI
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://ni4ai.org/contact">
+   Contact Us
+  </a>
+ </li>
 </ul>
 
   </div>
@@ -536,42 +558,44 @@
 
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   7 - Working with Metadata
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#What-is-Metadata?">
+   What is Metadata?
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#What-is-Metadata?">
-     What is Metadata?
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#Functions-covered:">
-     Functions covered:
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#About-the-data">
-     About the data
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#Functions-covered:">
+   Functions covered:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#About-the-data">
+   About the data
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#Accessing-metadata-fields">
+     Accessing metadata fields
     </a>
    </li>
   </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#Accessing-metadata-fields">
-   Accessing metadata fields
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#Getting-a-birds-eye-view-of-metadata-contents">
+   Getting a birds eye view of metadata contents
   </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#Filtering-on-metadata-contents">
-   Filtering on metadata contents
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#Using-SQL-to-query-metadata">
-   Using SQL to query metadata
-  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#Filtering-on-metadata-contents">
+     Filtering on metadata contents
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#Using-SQL-to-query-metadata">
+     Using SQL to query metadata
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -866,9 +890,9 @@ div.rendered_html tbody tr:hover {
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>import btrdb
-import pandas as pd
-from matplotlib import pyplot as plt
+<span></span><span class="kn">import</span> <span class="nn">btrdb</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
 </pre></div>
 </div>
 </div>
@@ -879,7 +903,7 @@ from matplotlib import pyplot as plt
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>db = btrdb.connect()
+<span></span><span class="n">db</span> <span class="o">=</span> <span class="n">btrdb</span><span class="o">.</span><span class="n">connect</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -895,17 +919,14 @@ from matplotlib import pyplot as plt
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>collection = 'POW/signatures'
-streams = db.streams_in_collection(collection)
+<span></span><span class="n">collection</span> <span class="o">=</span> <span class="s1">'POW/signatures'</span>
+<span class="n">streams</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">streams_in_collection</span><span class="p">(</span><span class="n">collection</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
-</section>
-</section>
-
 <section id="Accessing-metadata-fields">
-<h1>Accessing metadata fields<a class="headerlink" href="#Accessing-metadata-fields" title="Permalink to this headline">¶</a>
-</h1>
+<h3>Accessing metadata fields<a class="headerlink" href="#Accessing-metadata-fields" title="Permalink to this headline">¶</a>
+</h3>
 <p>Each stream includes two types of metadata: - <strong>Tags</strong> describe required fields, such as the stream name and units - <strong>Annotations</strong>: describe optional fields which are specified by the user.</p>
 <p>Different types of metadata can be retrieved using <code class="docutils literal notranslate"><span class="pre">`stream.tags()</span></code> &lt;<a class="reference external" href="https://btrdb.readthedocs.io/en/latest/api/streams.html#btrdb.stream.Stream.tags">https://btrdb.readthedocs.io/en/latest/api/streams.html#btrdb.stream.Stream.tags</a>&gt;`__ and <code class="docutils literal notranslate"><span class="pre">`stream.annotations()</span></code> &lt;<a class="reference external" href="https://btrdb.readthedocs.io/en/latest/api/streams.html#btrdb.stream.Stream.annotations">https://btrdb.readthedocs.io/en/latest/api/streams.html#btrdb.stream.Stream.annotations</a>&gt;`__.</p>
 <div class="nbinput docutils container">
@@ -915,12 +936,12 @@ streams = db.streams_in_collection(collection)
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>stream = streams[1]
+<span></span><span class="n">stream</span> <span class="o">=</span> <span class="n">streams</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
 
-print('COLLECTION:', stream.collection)
+<span class="nb">print</span><span class="p">(</span><span class="s1">'COLLECTION:'</span><span class="p">,</span> <span class="n">stream</span><span class="o">.</span><span class="n">collection</span><span class="p">)</span>
 
-print('\nTAGS:\n', stream.tags().keys())
-print('\nANNOTATIONS:\n', stream.annotations()[0].keys(),)
+<span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\n</span><span class="s1">TAGS:</span><span class="se">\n</span><span class="s1">'</span><span class="p">,</span> <span class="n">stream</span><span class="o">.</span><span class="n">tags</span><span class="p">()</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\n</span><span class="s1">ANNOTATIONS:</span><span class="se">\n</span><span class="s1">'</span><span class="p">,</span> <span class="n">stream</span><span class="o">.</span><span class="n">annotations</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">(),)</span>
 </pre></div>
 </div>
 </div>
@@ -947,9 +968,9 @@ ANNOTATIONS:
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>streams = db.streams_in_collection(collection, tags={'unit': 'volts'})
-streamset = btrdb.stream.StreamSet(streams[:10])
-print(streamset.describe('Cause','Weather'))
+<span></span><span class="n">streams</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">streams_in_collection</span><span class="p">(</span><span class="n">collection</span><span class="p">,</span> <span class="n">tags</span><span class="o">=</span><span class="p">{</span><span class="s1">'unit'</span><span class="p">:</span> <span class="s1">'volts'</span><span class="p">})</span>
+<span class="n">streamset</span> <span class="o">=</span> <span class="n">btrdb</span><span class="o">.</span><span class="n">stream</span><span class="o">.</span><span class="n">StreamSet</span><span class="p">(</span><span class="n">streams</span><span class="p">[:</span><span class="mi">10</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">streamset</span><span class="o">.</span><span class="n">describe</span><span class="p">(</span><span class="s1">'Cause'</span><span class="p">,</span><span class="s1">'Weather'</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
@@ -973,6 +994,11 @@ POW/signatures/event3152  Vc      volts   47d35cde...         10  Equipment  Unk
 </pre></div>
 </div>
 </div>
+</section>
+</section>
+<section id="Getting-a-birds-eye-view-of-metadata-contents">
+<h2>Getting a birds eye view of metadata contents<a class="headerlink" href="#Getting-a-birds-eye-view-of-metadata-contents" title="Permalink to this headline">¶</a>
+</h2>
 <p>One can get a high-level overview of metadata fields available for streams in a given collection using <code class="docutils literal notranslate"><span class="pre">`db.collection_metadata</span></code> &lt;<a class="reference external" href="https://btrdb.readthedocs.io/en/latest/api/conn.html#btrdb.conn.BTrDB.collection_metadata">https://btrdb.readthedocs.io/en/latest/api/conn.html#btrdb.conn.BTrDB.collection_metadata</a>&gt;`__.</p>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate">
@@ -981,8 +1007,8 @@ POW/signatures/event3152  Vc      volts   47d35cde...         10  Equipment  Unk
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>metadata = db.collection_metadata(collection)
-metadata
+<span></span><span class="n">metadata</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">collection_metadata</span><span class="p">(</span><span class="n">collection</span><span class="p">)</span>
+<span class="n">metadata</span>
 </pre></div>
 </div>
 </div>
@@ -1008,11 +1034,9 @@ metadata
 </pre></div>
 </div>
 </div>
-</section>
-
 <section id="Filtering-on-metadata-contents">
-<h1>Filtering on metadata contents<a class="headerlink" href="#Filtering-on-metadata-contents" title="Permalink to this headline">¶</a>
-</h1>
+<h3>Filtering on metadata contents<a class="headerlink" href="#Filtering-on-metadata-contents" title="Permalink to this headline">¶</a>
+</h3>
 <p>Metadata can provide a useful mechanism for determining what streams are relevant to a particular analysis. Two examples of filtering streams based on metadata contents are provided below.</p>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate">
@@ -1021,12 +1045,12 @@ metadata
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span># Find all voltage streams for a given event
-event_name = stream.collection
-print(event_name)
-streams = db.streams_in_collection(event_name,
-                                   tags={'unit':'volts'})
-streams
+<span></span><span class="c1"># Find all voltage streams for a given event</span>
+<span class="n">event_name</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">collection</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">event_name</span><span class="p">)</span>
+<span class="n">streams</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">streams_in_collection</span><span class="p">(</span><span class="n">event_name</span><span class="p">,</span>
+                                   <span class="n">tags</span><span class="o">=</span><span class="p">{</span><span class="s1">'unit'</span><span class="p">:</span><span class="s1">'volts'</span><span class="p">})</span>
+<span class="n">streams</span>
 </pre></div>
 </div>
 </div>
@@ -1059,14 +1083,14 @@ POW/signatures/event2907
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span># Find all fault events caused by lightning during a major storm
-annotations = {'Cause': 'Lightning',
-              'Weather': 'Major Storm'}
-streams = db.streams_in_collection(collection,
-                                   annotations=annotations)
+<span></span><span class="c1"># Find all fault events caused by lightning during a major storm</span>
+<span class="n">annotations</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'Cause'</span><span class="p">:</span> <span class="s1">'Lightning'</span><span class="p">,</span>
+              <span class="s1">'Weather'</span><span class="p">:</span> <span class="s1">'Major Storm'</span><span class="p">}</span>
+<span class="n">streams</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">streams_in_collection</span><span class="p">(</span><span class="n">collection</span><span class="p">,</span>
+                                   <span class="n">annotations</span><span class="o">=</span><span class="n">annotations</span><span class="p">)</span>
 
-print("%i streams selected from across %i collections"
-      %(len(streams), len(list(set([s.collection for s in streams])))))
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="si">%i</span><span class="s2"> streams selected from across </span><span class="si">%i</span><span class="s2"> collections"</span>
+      <span class="o">%</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">streams</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">([</span><span class="n">s</span><span class="o">.</span><span class="n">collection</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">streams</span><span class="p">])))))</span>
 </pre></div>
 </div>
 </div>
@@ -1080,10 +1104,9 @@ print("%i streams selected from across %i collections"
 </div>
 </div>
 </section>
-
 <section id="Using-SQL-to-query-metadata">
-<h1>Using SQL to query metadata<a class="headerlink" href="#Using-SQL-to-query-metadata" title="Permalink to this headline">¶</a>
-</h1>
+<h3>Using SQL to query metadata<a class="headerlink" href="#Using-SQL-to-query-metadata" title="Permalink to this headline">¶</a>
+</h3>
 <p>Above, we used dictionaries to specify filtering criteria in terms of tags and annotations we wished to filter upon. You can achieve the same results using the <code class="docutils literal notranslate"><span class="pre">db.query()</span></code> function which allows you to pass any arbitrary SQL query. That query is applied to the database table that stores metadata, and offers much greater flexibility for specifying complex search criteria.</p>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate">
@@ -1092,24 +1115,24 @@ print("%i streams selected from across %i collections"
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>##################
-# Specify query
-query = """SELECT uuid, name, unit from streams
-            WHERE collection LIKE $1 and unit='volts'"""
+<span></span><span class="c1">##################</span>
+<span class="c1"># Specify query</span>
+<span class="n">query</span> <span class="o">=</span> <span class="s2">"""SELECT uuid, name, unit from streams</span>
+<span class="s2">            WHERE collection LIKE $1 and unit='volts'"""</span>
 
-params = ['%%event%s'%(stream.annotations()[0]['EventId'])]
+<span class="n">params</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'</span><span class="si">%%</span><span class="s1">event</span><span class="si">%s</span><span class="s1">'</span><span class="o">%</span><span class="p">(</span><span class="n">stream</span><span class="o">.</span><span class="n">annotations</span><span class="p">()[</span><span class="mi">0</span><span class="p">][</span><span class="s1">'EventId'</span><span class="p">])]</span>
 
-##################
-# Find Streams
-streams_dict = db.query(query, params)
-streams = db.streams(*[s['uuid'] for s in streams_dict])
+<span class="c1">##################</span>
+<span class="c1"># Find Streams</span>
+<span class="n">streams_dict</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="n">query</span><span class="p">,</span> <span class="n">params</span><span class="p">)</span>
+<span class="n">streams</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">streams</span><span class="p">(</span><span class="o">*</span><span class="p">[</span><span class="n">s</span><span class="p">[</span><span class="s1">'uuid'</span><span class="p">]</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">streams_dict</span><span class="p">])</span>
 
 
-##################
-# Get data!
-start = min([s.time for s in streams.earliest()])
-end = max([s.time for s in streams.latest()])
-df = streams.filter(start=start, end=end).to_dataframe()
+<span class="c1">##################</span>
+<span class="c1"># Get data!</span>
+<span class="n">start</span> <span class="o">=</span> <span class="nb">min</span><span class="p">([</span><span class="n">s</span><span class="o">.</span><span class="n">time</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">streams</span><span class="o">.</span><span class="n">earliest</span><span class="p">()])</span>
+<span class="n">end</span> <span class="o">=</span> <span class="nb">max</span><span class="p">([</span><span class="n">s</span><span class="o">.</span><span class="n">time</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">streams</span><span class="o">.</span><span class="n">latest</span><span class="p">()])</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">streams</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="n">end</span><span class="p">)</span><span class="o">.</span><span class="n">to_dataframe</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -1120,7 +1143,7 @@ df = streams.filter(start=start, end=end).to_dataframe()
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>df.head()
+<span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -1195,6 +1218,8 @@ df = streams.filter(start=start, end=end).to_dataframe()
 </div>
 </div>
 </div>
+</section>
+</section>
 </section>
 
 

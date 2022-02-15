@@ -2,3 +2,4 @@ pydata-sphinx-theme
 myst-parser
 nbsphinx
 sphinxcontrib-email
+ipython

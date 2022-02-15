@@ -87,30 +87,32 @@
 </li>
 
 <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../data/index.html">
+  Data
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../blog/index.html">
-  Posts
+  Learn
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../workshops/index.html">
-  Workshops
+  Watch
  </a>
 </li>
 
 <li class="toctree-l1 current active nav-item">
  <a class="reference internal nav-link" href="index.html">
-  Tutorials
+  Code
  </a>
 </li>
 
     
     <li class="nav-item">
         <a class="nav-link nav-external" href="https://btrdb.readthedocs.io/en/latest/">API Docs<i class="fas fa-external-link-alt"></i></a>
-    </li>
-    
-    <li class="nav-item">
-        <a class="nav-link nav-external" href="https://github.com/PingThingsIO/ni4ai-notebooks/tree/main/tutorials">Tutorials<i class="fas fa-external-link-alt"></i></a>
     </li>
     
     <li class="nav-item">
@@ -192,7 +194,7 @@
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../blog/index.html">
-   Posts
+   Learn
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -201,8 +203,8 @@
   </label>
   <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../blog/data/index.html">
-     Data
+    <a class="reference internal" href="../blog/platform/index.html">
+     Platform
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
     <label for="toctree-checkbox-2">
@@ -211,13 +213,33 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/data/events.html">
-       Wide Area Events
+      <a class="reference internal" href="../blog/platform/plotter-demo.html">
+       Plotter Demo
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/data/monitoring.html">
-       Monitoring
+      <a class="reference internal" href="../blog/platform/api-demo.html">
+       Demo: Connecting to the API
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-explained.html">
+       BTrDB Explained
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-queries-pt1.html">
+       Memory Efficient BTrDB Queries: Part 1
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-queries-pt2.html">
+       Memory Efficient BTrDB Queries: Part 2
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/benchmarking-results.html">
+       PredictiveGrid Benchmarks
       </a>
      </li>
     </ul>
@@ -232,6 +254,11 @@
      </i>
     </label>
     <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/analysis/quadrature-demodulation.html">
+       Harmonic Phasor Estimation with Quadrature Demodulation
+      </a>
+     </li>
      <li class="toctree-l3">
       <a class="reference internal" href="../blog/analysis/spectral-analysis.html">
        Spectral Analysis (part 1)
@@ -315,7 +342,7 @@
     </ul>
    </li>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../blog/thoughts/index.html">
+    <a class="reference internal" href="../blog/commentary/index.html">
      Commentary
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
@@ -325,27 +352,17 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/fire-season.html">
+      <a class="reference internal" href="../blog/commentary/fire-season.html">
        Fire season is just around the corner
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/pmu-siting-2.html">
+      <a class="reference internal" href="../blog/commentary/pmu-siting-2.html">
        Choosing where to site distribution PMUs
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/sunshine-data.html">
-       A brief walkthrough of the Sunshine uPMU dataset
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/btrdb-explained.html">
-       BTrDB Explained
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/ekg-data.html">
+      <a class="reference internal" href="../blog/commentary/ekg-data.html">
        On EKG Data
       </a>
      </li>
@@ -361,16 +378,6 @@
      </i>
     </label>
     <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/ni4ai/demo-1.html">
-       Demo (Part 2): Exploring Data in “The Plotter”
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/ni4ai/demo-2.html">
-       Demo (Part 2): Establishing an API Connection
-      </a>
-     </li>
      <li class="toctree-l3">
       <a class="reference internal" href="../blog/ni4ai/add-sensors.html">
        Stream Data to NI4AI
@@ -391,13 +398,18 @@
        Expertise for Experts
       </a>
      </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/ni4ai/sunshine-data.html">
+       A brief walkthrough of the Sunshine uPMU dataset
+      </a>
+     </li>
     </ul>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../workshops/index.html">
-   Workshops
+   Watch
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
   <label for="toctree-checkbox-6">
@@ -434,7 +446,7 @@
  </li>
  <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="index.html">
-   Tutorials
+   Code
   </a>
   <input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
   <label for="toctree-checkbox-7">
@@ -443,8 +455,8 @@
   </label>
   <ul class="current">
    <li class="toctree-l2">
-    <a class="reference internal" href="plotter-demo.html">
-     Plotter Demo Video
+    <a class="reference internal" href="quickstart.html">
+     0 - PredictiveGrid in Python
     </a>
    </li>
    <li class="toctree-l2">
@@ -464,7 +476,7 @@
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="plots.html">
-     Basic Plots
+     4 - Basic Plots
     </a>
    </li>
    <li class="toctree-l2">
@@ -492,6 +504,11 @@
      9 - Visualizing Aggregates
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ingestion.html">
+     10 - Data Ingestion
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toctree-l1">
@@ -516,6 +533,11 @@
    NI4AI
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://ni4ai.org/contact">
+   Contact Us
+  </a>
+ </li>
 </ul>
 
   </div>
@@ -536,59 +558,59 @@
 
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   2 - Working with Streams
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#Imports">
+   Imports
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#Imports">
-     Imports
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#Connect-To-Server">
-     Connect To Server
-    </a>
-   </li>
-  </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#Connect-To-Server">
+   Connect To Server
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#Stream-Basics">
    Stream Basics
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#Metadata-Properties">
      Metadata Properties
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#Metadata-Methods">
      Metadata Methods
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#Metadata-Example">
      Metadata Example
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#Stream-Version">
      Stream Version
     </a>
    </li>
   </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#Viewing-Data">
    Viewing Data
   </a>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#Windowed-Data">
    Windowed Data
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#Aligned-Windows">
+     Aligned Windows
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -875,9 +897,9 @@ div.rendered_html tbody tr:hover {
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>import btrdb
-from tabulate import tabulate
-from pprint import pprint
+<span></span><span class="kn">import</span> <span class="nn">btrdb</span>
+<span class="kn">from</span> <span class="nn">tabulate</span> <span class="kn">import</span> <span class="n">tabulate</span>
+<span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
 </pre></div>
 </div>
 </div>
@@ -892,8 +914,8 @@ from pprint import pprint
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>conn = btrdb.connect()
-conn.info()
+<span></span><span class="n">conn</span> <span class="o">=</span> <span class="n">btrdb</span><span class="o">.</span><span class="n">connect</span><span class="p">()</span>
+<span class="n">conn</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 
 </pre></div>
 </div>
@@ -910,15 +932,13 @@ conn.info()
 </div>
 </div>
 </section>
-</section>
-
 <section id="Stream-Basics">
-<h1>Stream Basics<a class="headerlink" href="#Stream-Basics" title="Permalink to this headline">¶</a>
-</h1>
+<h2>Stream Basics<a class="headerlink" href="#Stream-Basics" title="Permalink to this headline">¶</a>
+</h2>
 <p>Streams contain actual points of data and you can query the time series values in a number of ways. But first, let’s look at the Stream metadata for a better understanding of what is available.</p>
 <section id="Metadata-Properties">
-<h2>Metadata Properties<a class="headerlink" href="#Metadata-Properties" title="Permalink to this headline">¶</a>
-</h2>
+<h3>Metadata Properties<a class="headerlink" href="#Metadata-Properties" title="Permalink to this headline">¶</a>
+</h3>
 <p>As discussed in the previous notebook, a stream has its own metadata properties such as its <code class="docutils literal notranslate"><span class="pre">collection</span></code> or <code class="docutils literal notranslate"><span class="pre">uuid</span></code>. Let’s start by defining each read-only property.</p>
 <p><strong>collection:</strong> The hierarchichal path where a stream lives. This is used purely for organizational purposes and has no impact on the underlying data.</p>
 <p><strong>name:</strong> A friendly name for the stream.</p>
@@ -930,9 +950,9 @@ conn.info()
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>streams = list(conn.streams_in_collection('sunshine/PMU6', tags={"unit": "volts"}))
-for stream in streams:
-    print("collection:{}, name:{}, uuid:{}".format(stream.collection, stream.name, stream.uuid))
+<span></span><span class="n">streams</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">conn</span><span class="o">.</span><span class="n">streams_in_collection</span><span class="p">(</span><span class="s1">'sunshine/PMU6'</span><span class="p">,</span> <span class="n">tags</span><span class="o">=</span><span class="p">{</span><span class="s2">"unit"</span><span class="p">:</span> <span class="s2">"volts"</span><span class="p">}))</span>
+<span class="k">for</span> <span class="n">stream</span> <span class="ow">in</span> <span class="n">streams</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"collection:</span><span class="si">{}</span><span class="s2">, name:</span><span class="si">{}</span><span class="s2">, uuid:</span><span class="si">{}</span><span class="s2">"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">stream</span><span class="o">.</span><span class="n">collection</span><span class="p">,</span> <span class="n">stream</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">stream</span><span class="o">.</span><span class="n">uuid</span><span class="p">))</span>
 
 </pre></div>
 </div>
@@ -950,8 +970,8 @@ collection:sunshine/PMU6, name:L1MAG, uuid:d3e9ed52-6db9-4b98-bfda-e1b509148e47
 </div>
 </section>
 <section id="Metadata-Methods">
-<h2>Metadata Methods<a class="headerlink" href="#Metadata-Methods" title="Permalink to this headline">¶</a>
-</h2>
+<h3>Metadata Methods<a class="headerlink" href="#Metadata-Methods" title="Permalink to this headline">¶</a>
+</h3>
 <p>In addition to the metadata properties above, each stream has a set of metadata methods. This information is provided as instance methods to indicate that they typically require a round-trip to the server and may change often.</p>
 <dl>
 <dt>
@@ -975,17 +995,17 @@ collection:sunshine/PMU6, name:L1MAG, uuid:d3e9ed52-6db9-4b98-bfda-e1b509148e47
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>stream = streams[0]
+<span></span><span class="n">stream</span> <span class="o">=</span> <span class="n">streams</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 
-print("tags")
-pprint(stream.tags())
+<span class="nb">print</span><span class="p">(</span><span class="s2">"tags"</span><span class="p">)</span>
+<span class="n">pprint</span><span class="p">(</span><span class="n">stream</span><span class="o">.</span><span class="n">tags</span><span class="p">())</span>
 
-annotations, property_version = stream.annotations()
-print("\nannotations")
-pprint(annotations)
+<span class="n">annotations</span><span class="p">,</span> <span class="n">property_version</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">annotations</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">annotations"</span><span class="p">)</span>
+<span class="n">pprint</span><span class="p">(</span><span class="n">annotations</span><span class="p">)</span>
 
-print("\nproperty_version")
-print(property_version)
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">property_version"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">property_version</span><span class="p">)</span>
 
 </pre></div>
 </div>
@@ -1010,8 +1030,8 @@ property_version
 </div>
 </section>
 <section id="Metadata-Example">
-<h2>Metadata Example<a class="headerlink" href="#Metadata-Example" title="Permalink to this headline">¶</a>
-</h2>
+<h3>Metadata Example<a class="headerlink" href="#Metadata-Example" title="Permalink to this headline">¶</a>
+</h3>
 <p>As with the collections, we can write a simple helper method to display information about a Stream.</p>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate">
@@ -1020,23 +1040,23 @@ property_version
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>def stream_detail(stream):
-    """
-    Prints detailed information about a stream.
-    """
-    table = [["Attribute", "Value"]]
-    table.append(["collection", stream.collection])
-    table.append(["version", stream.version()])
+<span></span><span class="k">def</span> <span class="nf">stream_detail</span><span class="p">(</span><span class="n">stream</span><span class="p">):</span>
+    <span class="sd">"""</span>
+<span class="sd">    Prints detailed information about a stream.</span>
+<span class="sd">    """</span>
+    <span class="n">table</span> <span class="o">=</span> <span class="p">[[</span><span class="s2">"Attribute"</span><span class="p">,</span> <span class="s2">"Value"</span><span class="p">]]</span>
+    <span class="n">table</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="s2">"collection"</span><span class="p">,</span> <span class="n">stream</span><span class="o">.</span><span class="n">collection</span><span class="p">])</span>
+    <span class="n">table</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="s2">"version"</span><span class="p">,</span> <span class="n">stream</span><span class="o">.</span><span class="n">version</span><span class="p">()])</span>
 
-    for k,v in stream.tags().items():
-        table.append(["tag/{}".format(k), v])
+    <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">stream</span><span class="o">.</span><span class="n">tags</span><span class="p">()</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">table</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="s2">"tag/</span><span class="si">{}</span><span class="s2">"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">k</span><span class="p">),</span> <span class="n">v</span><span class="p">])</span>
 
-    for k,v in stream.annotations()[0].items():
-        table.append(["annotation/{}".format(k), v])
+    <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">stream</span><span class="o">.</span><span class="n">annotations</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">table</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="s2">"annotation/</span><span class="si">{}</span><span class="s2">"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">k</span><span class="p">),</span> <span class="n">v</span><span class="p">])</span>
 
-    return tabulate(table, headers="firstrow")
+    <span class="k">return</span> <span class="n">tabulate</span><span class="p">(</span><span class="n">table</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="s2">"firstrow"</span><span class="p">)</span>
 
-print(stream_detail(stream))
+<span class="nb">print</span><span class="p">(</span><span class="n">stream_detail</span><span class="p">(</span><span class="n">stream</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
@@ -1060,16 +1080,15 @@ annotation/impedance  {"source": "PMU4", "target": "PMU6", "pos_sequence": "0.76
 </div>
 </section>
 <section id="Stream-Version">
-<h2>Stream Version<a class="headerlink" href="#Stream-Version" title="Permalink to this headline">¶</a>
-</h2>
+<h3>Stream Version<a class="headerlink" href="#Stream-Version" title="Permalink to this headline">¶</a>
+</h3>
 <p>Remember that the version of a stream changes whenever data is modified (though not when metadata is modified). This is especially useful on live data such that you can pin all of your queries to a specific version of your data. Otherwise, you could potentially get constantly changing statistics as new data is appended or older data arrives out of order.</p>
 <p>Think of the version as a snapshot of your data in time. Most of the calls we use on this page allow for an optional <code class="docutils literal notranslate"><span class="pre">version</span></code> argument which we have omitted. <em>The default value of zero is used which indicates the current (or latest) version</em>.</p>
 </section>
 </section>
-
 <section id="Viewing-Data">
-<h1>Viewing Data<a class="headerlink" href="#Viewing-Data" title="Permalink to this headline">¶</a>
-</h1>
+<h2>Viewing Data<a class="headerlink" href="#Viewing-Data" title="Permalink to this headline">¶</a>
+</h2>
 <p>Most likely you are interested in examining the stored values in each time series stream. This is fairly straightforward though it is important to note that the time series values are actually provided in a <code class="docutils literal notranslate"><span class="pre">RawPoint</span></code> class which has <code class="docutils literal notranslate"><span class="pre">time</span></code> and <code class="docutils literal notranslate"><span class="pre">value</span></code> attributes.</p>
 <p>Because a stream may contain billions of values, data queries should provide a start and end time to bound the amount of data retrieved. All times are stored internally in nanoseconds with the zero value being the <a class="reference external" href="https://en.wikipedia.org/wiki/Unix_time">Unix epoch</a>. Luckily, the btrdb library comes with many convenience functions to help with converting between nanoseconds and other datetime formats.</p>
 <p>Let’s start with a simple example to view data in our <code class="docutils literal notranslate"><span class="pre">LINE560V1-MAG</span></code> stream. We will call the stream’s <code class="docutils literal notranslate"><span class="pre">values</span></code> method which returns a sequence. Each item in the sequence is a tuple containing a <code class="docutils literal notranslate"><span class="pre">RawPoint</span></code> and the version of the stream at retrieval time. However, before we call the <code class="docutils literal notranslate"><span class="pre">values</span></code> method we will need to determine the start time for our call.</p>
@@ -1080,9 +1099,9 @@ annotation/impedance  {"source": "PMU4", "target": "PMU6", "pos_sequence": "0.76
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span># retrieve the first point of data and the current stream version
-earliest, version = stream.earliest()
-print(earliest, version)
+<span></span><span class="c1"># retrieve the first point of data and the current stream version</span>
+<span class="n">earliest</span><span class="p">,</span> <span class="n">version</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">earliest</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">earliest</span><span class="p">,</span> <span class="n">version</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1103,8 +1122,8 @@ RawPoint(1456790400008333000, 283.017822265625) 0
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>from btrdb.utils.timez import ns_to_datetime
-ns_to_datetime(earliest.time)
+<span></span><span class="kn">from</span> <span class="nn">btrdb.utils.timez</span> <span class="kn">import</span> <span class="n">ns_to_datetime</span>
+<span class="n">ns_to_datetime</span><span class="p">(</span><span class="n">earliest</span><span class="o">.</span><span class="n">time</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1127,11 +1146,11 @@ datetime.datetime(2016, 3, 1, 0, 0, 0, 8333, tzinfo=&lt;UTC&gt;)
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>start = earliest.time
-end = earliest.time + 2e8
+<span></span><span class="n">start</span> <span class="o">=</span> <span class="n">earliest</span><span class="o">.</span><span class="n">time</span>
+<span class="n">end</span> <span class="o">=</span> <span class="n">earliest</span><span class="o">.</span><span class="n">time</span> <span class="o">+</span> <span class="mf">2e8</span>
 
-for point, version in stream.values(start, end):
-    print(point)
+<span class="k">for</span> <span class="n">point</span><span class="p">,</span> <span class="n">version</span> <span class="ow">in</span> <span class="n">stream</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">point</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1176,8 +1195,8 @@ RawPoint(1456790400208333000, 283.088134765625)
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>for point, version in stream.values(start, end):
-    print(point.time, point.value)
+<span></span><span class="k">for</span> <span class="n">point</span><span class="p">,</span> <span class="n">version</span> <span class="ow">in</span> <span class="n">stream</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">point</span><span class="o">.</span><span class="n">time</span><span class="p">,</span> <span class="n">point</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1215,10 +1234,9 @@ RawPoint(1456790400208333000, 283.088134765625)
 </div>
 </div>
 </section>
-
 <section id="Windowed-Data">
-<h1>Windowed Data<a class="headerlink" href="#Windowed-Data" title="Permalink to this headline">¶</a>
-</h1>
+<h2>Windowed Data<a class="headerlink" href="#Windowed-Data" title="Permalink to this headline">¶</a>
+</h2>
 <p>Aside from viewing the raw values, we can also query windows of data. Windowed queries return <code class="docutils literal notranslate"><span class="pre">StatPoint</span></code> values that contain aggregations of the data in each window rather than individual <code class="docutils literal notranslate"><span class="pre">RawPoint</span></code> values. Each <code class="docutils literal notranslate"><span class="pre">StatPoint</span></code> contains attributes for the minimum, maximum, mean, and standard deviation of the values in each window. StatPoints also report the number of raw points (i.e., the count) and the start time of the window. You can find more information about windowing data in the
 <a class="reference external" href="https://btrdb.readthedocs.io/en/latest/working/stream-view-data.html#view-windows-of-data">docs</a> or view the <a class="reference external" href="https://btrdb.readthedocs.io/en/latest/api/streams.html">API</a> reference.</p>
 <p>This time we will use another convenience function from <code class="docutils literal notranslate"><span class="pre">btrdb.utils.timez</span></code> which will help us to manipulate values at the nanosecond scale by better defining the query range and selecting aggregates of data at 100 millisecond intervals.</p>
@@ -1229,14 +1247,14 @@ RawPoint(1456790400208333000, 283.088134765625)
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>from btrdb.utils.timez import ns_delta
+<span></span><span class="kn">from</span> <span class="nn">btrdb.utils.timez</span> <span class="kn">import</span> <span class="n">ns_delta</span>
 
-start = earliest.time
-end = earliest.time + ns_delta(seconds=1)   # 1 second later
-width = ns_delta(milliseconds=100)          # 100 milleseconds per window
+<span class="n">start</span> <span class="o">=</span> <span class="n">earliest</span><span class="o">.</span><span class="n">time</span>
+<span class="n">end</span> <span class="o">=</span> <span class="n">earliest</span><span class="o">.</span><span class="n">time</span> <span class="o">+</span> <span class="n">ns_delta</span><span class="p">(</span><span class="n">seconds</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>   <span class="c1"># 1 second later</span>
+<span class="n">width</span> <span class="o">=</span> <span class="n">ns_delta</span><span class="p">(</span><span class="n">milliseconds</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>          <span class="c1"># 100 milleseconds per window</span>
 
-for point, version in stream.windows(start, end, width):
-    print(point)
+<span class="k">for</span> <span class="n">point</span><span class="p">,</span> <span class="n">version</span> <span class="ow">in</span> <span class="n">stream</span><span class="o">.</span><span class="n">windows</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">width</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">point</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1266,15 +1284,15 @@ StatPoint(1456790400908333000, 283.0104064941406, 283.03795623779297, 283.083740
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>def stat_table(points):
-    attrs = ["time", "min", "max", "mean", "stddev", "count"]
-    table = [attrs]
-    for p in points:
-        table.append([getattr(p, attr) for attr in attrs])
-    return tabulate(table, headers="firstrow")
+<span></span><span class="k">def</span> <span class="nf">stat_table</span><span class="p">(</span><span class="n">points</span><span class="p">):</span>
+    <span class="n">attrs</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"time"</span><span class="p">,</span> <span class="s2">"min"</span><span class="p">,</span> <span class="s2">"max"</span><span class="p">,</span> <span class="s2">"mean"</span><span class="p">,</span> <span class="s2">"stddev"</span><span class="p">,</span> <span class="s2">"count"</span><span class="p">]</span>
+    <span class="n">table</span> <span class="o">=</span> <span class="p">[</span><span class="n">attrs</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">points</span><span class="p">:</span>
+        <span class="n">table</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="nb">getattr</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">attr</span><span class="p">)</span> <span class="k">for</span> <span class="n">attr</span> <span class="ow">in</span> <span class="n">attrs</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">tabulate</span><span class="p">(</span><span class="n">table</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="s2">"firstrow"</span><span class="p">)</span>
 
-points = [point for point, _ in stream.windows(start, end, width)]
-print(stat_table(points))
+<span class="n">points</span> <span class="o">=</span> <span class="p">[</span><span class="n">point</span> <span class="k">for</span> <span class="n">point</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">stream</span><span class="o">.</span><span class="n">windows</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">width</span><span class="p">)]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">stat_table</span><span class="p">(</span><span class="n">points</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
@@ -1299,6 +1317,9 @@ print(stat_table(points))
 </div>
 </div>
 <p>While we haven’t used it in our examples, you can also optionally supply a <code class="docutils literal notranslate"><span class="pre">depth</span></code> argument to the <code class="docutils literal notranslate"><span class="pre">windows</span></code> query. The depth is the precision of the data in each window, which can greatly speed up your queries if you don’t need to be precise down to the nanosecond level. As an example, supplying <code class="docutils literal notranslate"><span class="pre">depth=30</span></code> would return to-second precision and take advantage of the BTrDB database to increase the retrieval performance. Please see the docs for more information.</p>
+<section id="Aligned-Windows">
+<h3>Aligned Windows<a class="headerlink" href="#Aligned-Windows" title="Permalink to this headline">¶</a>
+</h3>
 <p>The aligned windows method is an alternative aggregate query that more directly exploits the underlying database structure for the best possible performance. This method, <code class="docutils literal notranslate"><span class="pre">aligned_windows</span></code> takes a <code class="docutils literal notranslate"><span class="pre">pointwidth</span></code> argument that defines the window width as a power of two. Like the <code class="docutils literal notranslate"><span class="pre">windows</span></code> method, each point returned is a statistical aggregate of all the raw data within a window but of width <span class="math notranslate nohighlight">\(2^{pointwidth}\)</span> nanoseconds.</p>
 <p>Note that when bounding the query with a time range, <code class="docutils literal notranslate"><span class="pre">start</span></code> is inclusive, but <code class="docutils literal notranslate"><span class="pre">end</span></code> is exclusive. That is, results will be returned for all windows that start in the interval <span class="math notranslate nohighlight">\([start, end)\)</span>. If <span class="math notranslate nohighlight">\(end &lt; start+2^{pointwidth}\)</span> you will not get any results. If start and end are not powers of two, the bottom pointwidth bits will be cleared. Each window will contain statistical summaries of the window. Statistical points with no points (<code class="docutils literal notranslate"><span class="pre">count=0</span></code>) will be ommitted.</p>
 <div class="nbinput docutils container">
@@ -1308,9 +1329,9 @@ print(stat_table(points))
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>pointwidth = 27    # 2^27 nanoseconds wide
-points = [point for point, _ in stream.aligned_windows(start, end, pointwidth)]
-print(stat_table(points))
+<span></span><span class="n">pointwidth</span> <span class="o">=</span> <span class="mi">27</span>    <span class="c1"># 2^27 nanoseconds wide</span>
+<span class="n">points</span> <span class="o">=</span> <span class="p">[</span><span class="n">point</span> <span class="k">for</span> <span class="n">point</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">stream</span><span class="o">.</span><span class="n">aligned_windows</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">pointwidth</span><span class="p">)]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">stat_table</span><span class="p">(</span><span class="n">points</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
@@ -1340,11 +1361,11 @@ print(stat_table(points))
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>from btrdb.utils.timez import currently_as_ns
+<span></span><span class="kn">from</span> <span class="nn">btrdb.utils.timez</span> <span class="kn">import</span> <span class="n">currently_as_ns</span>
 
-pointwidth = 52
-points = [point for point, _ in stream.aligned_windows(start, currently_as_ns(), pointwidth)]
-print(stat_table(points))
+<span class="n">pointwidth</span> <span class="o">=</span> <span class="mi">52</span>
+<span class="n">points</span> <span class="o">=</span> <span class="p">[</span><span class="n">point</span> <span class="k">for</span> <span class="n">point</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">stream</span><span class="o">.</span><span class="n">aligned_windows</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">currently_as_ns</span><span class="p">(),</span> <span class="n">pointwidth</span><span class="p">)]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">stat_table</span><span class="p">(</span><span class="n">points</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
@@ -1372,6 +1393,8 @@ print(stat_table(points))
 </pre></div>
 </div>
 </div>
+</section>
+</section>
 </section>
 
 

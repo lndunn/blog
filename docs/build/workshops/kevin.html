@@ -85,30 +85,32 @@
 </li>
 
 <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../data/index.html">
+  Data
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../blog/index.html">
-  Posts
+  Learn
  </a>
 </li>
 
 <li class="toctree-l1 current active nav-item">
  <a class="reference internal nav-link" href="index.html">
-  Workshops
+  Watch
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../tutorials/index.html">
-  Tutorials
+  Code
  </a>
 </li>
 
     
     <li class="nav-item">
         <a class="nav-link nav-external" href="https://btrdb.readthedocs.io/en/latest/">API Docs<i class="fas fa-external-link-alt"></i></a>
-    </li>
-    
-    <li class="nav-item">
-        <a class="nav-link nav-external" href="https://github.com/PingThingsIO/ni4ai-notebooks/tree/main/tutorials">Tutorials<i class="fas fa-external-link-alt"></i></a>
     </li>
     
     <li class="nav-item">
@@ -190,7 +192,7 @@
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../blog/index.html">
-   Posts
+   Learn
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -199,8 +201,8 @@
   </label>
   <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../blog/data/index.html">
-     Data
+    <a class="reference internal" href="../blog/platform/index.html">
+     Platform
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
     <label for="toctree-checkbox-2">
@@ -209,13 +211,33 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/data/events.html">
-       Wide Area Events
+      <a class="reference internal" href="../blog/platform/plotter-demo.html">
+       Plotter Demo
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/data/monitoring.html">
-       Monitoring
+      <a class="reference internal" href="../blog/platform/api-demo.html">
+       Demo: Connecting to the API
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-explained.html">
+       BTrDB Explained
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-queries-pt1.html">
+       Memory Efficient BTrDB Queries: Part 1
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-queries-pt2.html">
+       Memory Efficient BTrDB Queries: Part 2
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/benchmarking-results.html">
+       PredictiveGrid Benchmarks
       </a>
      </li>
     </ul>
@@ -230,6 +252,11 @@
      </i>
     </label>
     <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/analysis/quadrature-demodulation.html">
+       Harmonic Phasor Estimation with Quadrature Demodulation
+      </a>
+     </li>
      <li class="toctree-l3">
       <a class="reference internal" href="../blog/analysis/spectral-analysis.html">
        Spectral Analysis (part 1)
@@ -313,7 +340,7 @@
     </ul>
    </li>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../blog/thoughts/index.html">
+    <a class="reference internal" href="../blog/commentary/index.html">
      Commentary
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
@@ -323,27 +350,17 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/fire-season.html">
+      <a class="reference internal" href="../blog/commentary/fire-season.html">
        Fire season is just around the corner
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/pmu-siting-2.html">
+      <a class="reference internal" href="../blog/commentary/pmu-siting-2.html">
        Choosing where to site distribution PMUs
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/sunshine-data.html">
-       A brief walkthrough of the Sunshine uPMU dataset
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/btrdb-explained.html">
-       BTrDB Explained
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/ekg-data.html">
+      <a class="reference internal" href="../blog/commentary/ekg-data.html">
        On EKG Data
       </a>
      </li>
@@ -359,16 +376,6 @@
      </i>
     </label>
     <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/ni4ai/demo-1.html">
-       Demo (Part 2): Exploring Data in “The Plotter”
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/ni4ai/demo-2.html">
-       Demo (Part 2): Establishing an API Connection
-      </a>
-     </li>
      <li class="toctree-l3">
       <a class="reference internal" href="../blog/ni4ai/add-sensors.html">
        Stream Data to NI4AI
@@ -389,13 +396,18 @@
        Expertise for Experts
       </a>
      </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/ni4ai/sunshine-data.html">
+       A brief walkthrough of the Sunshine uPMU dataset
+      </a>
+     </li>
     </ul>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="index.html">
-   Workshops
+   Watch
   </a>
   <input checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
   <label for="toctree-checkbox-6">
@@ -432,7 +444,7 @@
  </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../tutorials/index.html">
-   Tutorials
+   Code
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
   <label for="toctree-checkbox-7">
@@ -441,8 +453,8 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../tutorials/plotter-demo.html">
-     Plotter Demo Video
+    <a class="reference internal" href="../tutorials/quickstart.html">
+     0 - PredictiveGrid in Python
     </a>
    </li>
    <li class="toctree-l2">
@@ -462,7 +474,7 @@
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../tutorials/plots.html">
-     Basic Plots
+     4 - Basic Plots
     </a>
    </li>
    <li class="toctree-l2">
@@ -490,6 +502,11 @@
      9 - Visualizing Aggregates
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../tutorials/ingestion.html">
+     10 - Data Ingestion
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toctree-l1">
@@ -512,6 +529,11 @@
  <li class="toctree-l1">
   <a class="reference external" href="https://ni4ai.org/about">
    NI4AI
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://ni4ai.org/contact">
+   Contact Us
   </a>
  </li>
 </ul>

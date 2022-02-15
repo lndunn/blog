@@ -39,7 +39,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="6 - Memory Efficient Queries" href="queries.html" />
-    <link rel="prev" title="Basic Plots" href="plots.html" />
+    <link rel="prev" title="4 - Basic Plots" href="plots.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -87,30 +87,32 @@
 </li>
 
 <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../data/index.html">
+  Data
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../blog/index.html">
-  Posts
+  Learn
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../workshops/index.html">
-  Workshops
+  Watch
  </a>
 </li>
 
 <li class="toctree-l1 current active nav-item">
  <a class="reference internal nav-link" href="index.html">
-  Tutorials
+  Code
  </a>
 </li>
 
     
     <li class="nav-item">
         <a class="nav-link nav-external" href="https://btrdb.readthedocs.io/en/latest/">API Docs<i class="fas fa-external-link-alt"></i></a>
-    </li>
-    
-    <li class="nav-item">
-        <a class="nav-link nav-external" href="https://github.com/PingThingsIO/ni4ai-notebooks/tree/main/tutorials">Tutorials<i class="fas fa-external-link-alt"></i></a>
     </li>
     
     <li class="nav-item">
@@ -192,7 +194,7 @@
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../blog/index.html">
-   Posts
+   Learn
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -201,8 +203,8 @@
   </label>
   <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../blog/data/index.html">
-     Data
+    <a class="reference internal" href="../blog/platform/index.html">
+     Platform
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
     <label for="toctree-checkbox-2">
@@ -211,13 +213,33 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/data/events.html">
-       Wide Area Events
+      <a class="reference internal" href="../blog/platform/plotter-demo.html">
+       Plotter Demo
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/data/monitoring.html">
-       Monitoring
+      <a class="reference internal" href="../blog/platform/api-demo.html">
+       Demo: Connecting to the API
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-explained.html">
+       BTrDB Explained
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-queries-pt1.html">
+       Memory Efficient BTrDB Queries: Part 1
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-queries-pt2.html">
+       Memory Efficient BTrDB Queries: Part 2
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/benchmarking-results.html">
+       PredictiveGrid Benchmarks
       </a>
      </li>
     </ul>
@@ -232,6 +254,11 @@
      </i>
     </label>
     <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/analysis/quadrature-demodulation.html">
+       Harmonic Phasor Estimation with Quadrature Demodulation
+      </a>
+     </li>
      <li class="toctree-l3">
       <a class="reference internal" href="../blog/analysis/spectral-analysis.html">
        Spectral Analysis (part 1)
@@ -315,7 +342,7 @@
     </ul>
    </li>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../blog/thoughts/index.html">
+    <a class="reference internal" href="../blog/commentary/index.html">
      Commentary
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
@@ -325,27 +352,17 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/fire-season.html">
+      <a class="reference internal" href="../blog/commentary/fire-season.html">
        Fire season is just around the corner
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/pmu-siting-2.html">
+      <a class="reference internal" href="../blog/commentary/pmu-siting-2.html">
        Choosing where to site distribution PMUs
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/sunshine-data.html">
-       A brief walkthrough of the Sunshine uPMU dataset
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/btrdb-explained.html">
-       BTrDB Explained
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/ekg-data.html">
+      <a class="reference internal" href="../blog/commentary/ekg-data.html">
        On EKG Data
       </a>
      </li>
@@ -361,16 +378,6 @@
      </i>
     </label>
     <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/ni4ai/demo-1.html">
-       Demo (Part 2): Exploring Data in “The Plotter”
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/ni4ai/demo-2.html">
-       Demo (Part 2): Establishing an API Connection
-      </a>
-     </li>
      <li class="toctree-l3">
       <a class="reference internal" href="../blog/ni4ai/add-sensors.html">
        Stream Data to NI4AI
@@ -391,13 +398,18 @@
        Expertise for Experts
       </a>
      </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/ni4ai/sunshine-data.html">
+       A brief walkthrough of the Sunshine uPMU dataset
+      </a>
+     </li>
     </ul>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../workshops/index.html">
-   Workshops
+   Watch
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
   <label for="toctree-checkbox-6">
@@ -434,7 +446,7 @@
  </li>
  <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="index.html">
-   Tutorials
+   Code
   </a>
   <input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
   <label for="toctree-checkbox-7">
@@ -443,8 +455,8 @@
   </label>
   <ul class="current">
    <li class="toctree-l2">
-    <a class="reference internal" href="plotter-demo.html">
-     Plotter Demo Video
+    <a class="reference internal" href="quickstart.html">
+     0 - PredictiveGrid in Python
     </a>
    </li>
    <li class="toctree-l2">
@@ -464,7 +476,7 @@
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="plots.html">
-     Basic Plots
+     4 - Basic Plots
     </a>
    </li>
    <li class="toctree-l2 current active">
@@ -492,6 +504,11 @@
      9 - Visualizing Aggregates
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ingestion.html">
+     10 - Data Ingestion
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toctree-l1">
@@ -514,6 +531,11 @@
  <li class="toctree-l1">
   <a class="reference external" href="https://ni4ai.org/about">
    NI4AI
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://ni4ai.org/contact">
+   Contact Us
   </a>
  </li>
 </ul>
@@ -854,12 +876,12 @@ div.rendered_html tbody tr:hover {
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>import btrdb
+<span></span><span class="kn">import</span> <span class="nn">btrdb</span>
 
-from datetime import datetime, timedelta
-from matplotlib import pyplot as plt
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">timedelta</span>
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
 
-from btrdb.utils import timez
+<span class="kn">from</span> <span class="nn">btrdb.utils</span> <span class="kn">import</span> <span class="n">timez</span>
 </pre></div>
 </div>
 </div>
@@ -870,8 +892,8 @@ from btrdb.utils import timez
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span># Make sure you add your API key to the config file to connect!
-conn = btrdb.connect()
+<span></span><span class="c1"># Make sure you add your API key to the config file to connect!</span>
+<span class="n">conn</span> <span class="o">=</span> <span class="n">btrdb</span><span class="o">.</span><span class="n">connect</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -887,10 +909,10 @@ conn = btrdb.connect()
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>streams = conn.streams_in_collection('sunshine')
-stream = streams[2]
+<span></span><span class="n">streams</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">streams_in_collection</span><span class="p">(</span><span class="s1">'sunshine'</span><span class="p">)</span>
+<span class="n">stream</span> <span class="o">=</span> <span class="n">streams</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
 
-print(stream.collection, stream.name, stream.unit)
+<span class="nb">print</span><span class="p">(</span><span class="n">stream</span><span class="o">.</span><span class="n">collection</span><span class="p">,</span> <span class="n">stream</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">stream</span><span class="o">.</span><span class="n">unit</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -910,11 +932,11 @@ sunshine/PMU1 C3MAG amps
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>earliest, _ = stream.earliest()
-start = earliest.time
+<span></span><span class="n">earliest</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">earliest</span><span class="p">()</span>
+<span class="n">start</span> <span class="o">=</span> <span class="n">earliest</span><span class="o">.</span><span class="n">time</span>
 
-latest, _ = stream.latest()
-end = latest.time
+<span class="n">latest</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">latest</span><span class="p">()</span>
+<span class="n">end</span> <span class="o">=</span> <span class="n">latest</span><span class="o">.</span><span class="n">time</span>
 </pre></div>
 </div>
 </div>
@@ -925,9 +947,9 @@ end = latest.time
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span># converts from nanoseconds to days
-ns_to_days = lambda ns: ns/1e9/60/60/24
-ns_to_days(end-start)
+<span></span><span class="c1"># converts from nanoseconds to days</span>
+<span class="n">ns_to_days</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">ns</span><span class="p">:</span> <span class="n">ns</span><span class="o">/</span><span class="mf">1e9</span><span class="o">/</span><span class="mi">60</span><span class="o">/</span><span class="mi">60</span><span class="o">/</span><span class="mi">24</span>
+<span class="n">ns_to_days</span><span class="p">(</span><span class="n">end</span><span class="o">-</span><span class="n">start</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -954,16 +976,16 @@ ns_to_days(end-start)
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>pw = 50 # or 2^50 nanoseconds
+<span></span><span class="n">pw</span> <span class="o">=</span> <span class="mi">50</span> <span class="c1"># or 2^50 nanoseconds</span>
 
-t0 = datetime.now()
-points = stream.aligned_windows(start=start, end=end, pointwidth=pw)
+<span class="n">t0</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
+<span class="n">points</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">aligned_windows</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="n">end</span><span class="p">,</span> <span class="n">pointwidth</span><span class="o">=</span><span class="n">pw</span><span class="p">)</span>
 
-ns = points[1][0].time - points[0][0].time
+<span class="n">ns</span> <span class="o">=</span> <span class="n">points</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">time</span> <span class="o">-</span> <span class="n">points</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">time</span>
 
-print('Stream duration is %.0f days'%(ns_to_days(end-start)))
-print('There are %i statpoints in measurement interval, where each statpoint spans %.2f days'%(len(points), ns_to_days(ns)))
-print('Query took %.2f seconds to run'%((datetime.now()-t0)).total_seconds())
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Stream duration is </span><span class="si">%.0f</span><span class="s1"> days'</span><span class="o">%</span><span class="p">(</span><span class="n">ns_to_days</span><span class="p">(</span><span class="n">end</span><span class="o">-</span><span class="n">start</span><span class="p">)))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'There are </span><span class="si">%i</span><span class="s1"> statpoints in measurement interval, where each statpoint spans </span><span class="si">%.2f</span><span class="s1"> days'</span><span class="o">%</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">points</span><span class="p">),</span> <span class="n">ns_to_days</span><span class="p">(</span><span class="n">ns</span><span class="p">)))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Query took </span><span class="si">%.2f</span><span class="s1"> seconds to run'</span><span class="o">%</span><span class="p">((</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">-</span><span class="n">t0</span><span class="p">))</span><span class="o">.</span><span class="n">total_seconds</span><span class="p">())</span>
 
 </pre></div>
 </div>
@@ -987,15 +1009,15 @@ Query took 0.01 seconds to run
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>pw = 44 # or 2^38 nanoseconds
+<span></span><span class="n">pw</span> <span class="o">=</span> <span class="mi">44</span> <span class="c1"># or 2^38 nanoseconds</span>
 
-t0 = datetime.now()
-points = stream.aligned_windows(start=start, end=end, pointwidth=pw)
-ns = points[1][0].time - points[0][0].time
+<span class="n">t0</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
+<span class="n">points</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">aligned_windows</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="n">end</span><span class="p">,</span> <span class="n">pointwidth</span><span class="o">=</span><span class="n">pw</span><span class="p">)</span>
+<span class="n">ns</span> <span class="o">=</span> <span class="n">points</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">time</span> <span class="o">-</span> <span class="n">points</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">time</span>
 
-print('Stream duration is %.0f days'%(ns_to_days(end-start)))
-print('There are %i statpoints, each of which spans %.2f minutes'%(len(points), 24*60*ns_to_days(ns)))
-print('Query took %.2f seconds to run'%((datetime.now()-t0)).total_seconds())
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Stream duration is </span><span class="si">%.0f</span><span class="s1"> days'</span><span class="o">%</span><span class="p">(</span><span class="n">ns_to_days</span><span class="p">(</span><span class="n">end</span><span class="o">-</span><span class="n">start</span><span class="p">)))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'There are </span><span class="si">%i</span><span class="s1"> statpoints, each of which spans </span><span class="si">%.2f</span><span class="s1"> minutes'</span><span class="o">%</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">points</span><span class="p">),</span> <span class="mi">24</span><span class="o">*</span><span class="mi">60</span><span class="o">*</span><span class="n">ns_to_days</span><span class="p">(</span><span class="n">ns</span><span class="p">)))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Query took </span><span class="si">%.2f</span><span class="s1"> seconds to run'</span><span class="o">%</span><span class="p">((</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">-</span><span class="n">t0</span><span class="p">))</span><span class="o">.</span><span class="n">total_seconds</span><span class="p">())</span>
 
 </pre></div>
 </div>
@@ -1019,7 +1041,7 @@ Query took 0.06 seconds to run
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>statpoints, _ = zip(*points)
+<span></span><span class="n">statpoints</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="n">points</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1035,29 +1057,29 @@ Query took 0.06 seconds to run
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>import pandas as pd
+<span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 
-def stats_to_df(statpoints,
-                attrs=['count','min','mean','max','stddev','time'],
-                pw=44,
-                add_start_time=True,
-                add_end_time=True,
-               ):
+<span class="k">def</span> <span class="nf">stats_to_df</span><span class="p">(</span><span class="n">statpoints</span><span class="p">,</span>
+                <span class="n">attrs</span><span class="o">=</span><span class="p">[</span><span class="s1">'count'</span><span class="p">,</span><span class="s1">'min'</span><span class="p">,</span><span class="s1">'mean'</span><span class="p">,</span><span class="s1">'max'</span><span class="p">,</span><span class="s1">'stddev'</span><span class="p">,</span><span class="s1">'time'</span><span class="p">],</span>
+                <span class="n">pw</span><span class="o">=</span><span class="mi">44</span><span class="p">,</span>
+                <span class="n">add_start_time</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                <span class="n">add_end_time</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+               <span class="p">):</span>
 
-    df = pd.DataFrame(columns=attrs, index=range(len(statpoints)))
-    for i, spoint in enumerate(statpoints):
-        df.loc[i] = [getattr(spoint, attr) for attr in attrs]
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">attrs</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">statpoints</span><span class="p">)))</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">spoint</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">statpoints</span><span class="p">):</span>
+        <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="nb">getattr</span><span class="p">(</span><span class="n">spoint</span><span class="p">,</span> <span class="n">attr</span><span class="p">)</span> <span class="k">for</span> <span class="n">attr</span> <span class="ow">in</span> <span class="n">attrs</span><span class="p">]</span>
 
-    if add_start_time:
-        df['Interval Start'] = [timez.ns_to_datetime(t) for t in df['time'].tolist()]
+    <span class="k">if</span> <span class="n">add_start_time</span><span class="p">:</span>
+        <span class="n">df</span><span class="p">[</span><span class="s1">'Interval Start'</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">timez</span><span class="o">.</span><span class="n">ns_to_datetime</span><span class="p">(</span><span class="n">t</span><span class="p">)</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">df</span><span class="p">[</span><span class="s1">'time'</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()]</span>
 
-    if add_end_time:
-        df['Interval End'] = [timez.ns_to_datetime(t + 2**pw) for t in df['time'].tolist()]
-    return df
+    <span class="k">if</span> <span class="n">add_end_time</span><span class="p">:</span>
+        <span class="n">df</span><span class="p">[</span><span class="s1">'Interval End'</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">timez</span><span class="o">.</span><span class="n">ns_to_datetime</span><span class="p">(</span><span class="n">t</span> <span class="o">+</span> <span class="mi">2</span><span class="o">**</span><span class="n">pw</span><span class="p">)</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">df</span><span class="p">[</span><span class="s1">'time'</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()]</span>
+    <span class="k">return</span> <span class="n">df</span>
 
-df = stats_to_df(statpoints, pw=pw)
-print('Table of Summary Statistics')
-df.head()
+<span class="n">df</span> <span class="o">=</span> <span class="n">stats_to_df</span><span class="p">(</span><span class="n">statpoints</span><span class="p">,</span> <span class="n">pw</span><span class="o">=</span><span class="n">pw</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Table of Summary Statistics'</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -1178,11 +1200,11 @@ Table of Summary Statistics
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span># expected number of points
-expected_points = 120 # samples per second
-expected_points = 120 * 2**pw / 1e9 # samples per StatPoint
+<span></span><span class="c1"># expected number of points</span>
+<span class="n">expected_points</span> <span class="o">=</span> <span class="mi">120</span> <span class="c1"># samples per second</span>
+<span class="n">expected_points</span> <span class="o">=</span> <span class="mi">120</span> <span class="o">*</span> <span class="mi">2</span><span class="o">**</span><span class="n">pw</span> <span class="o">/</span> <span class="mf">1e9</span> <span class="c1"># samples per StatPoint</span>
 
-print(expected_points)
+<span class="nb">print</span><span class="p">(</span><span class="n">expected_points</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1206,12 +1228,12 @@ print(expected_points)
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>fig, ax = plt.subplots(figsize=(10,2))
-ax.plot(df['Interval Start'], df['count']/1e6, label='actual', ls=' ', marker='.', alpha=0.5)
-ax.plot(df['Interval Start'], [expected_points/1e6 for e in df['count']], label='expected', lw=2)
-ax.set_ylabel('Count\n(millions)', fontsize=14)
-ax.legend(fontsize=14)
-plt.show()
+<span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'Interval Start'</span><span class="p">],</span> <span class="n">df</span><span class="p">[</span><span class="s1">'count'</span><span class="p">]</span><span class="o">/</span><span class="mf">1e6</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'actual'</span><span class="p">,</span> <span class="n">ls</span><span class="o">=</span><span class="s1">' '</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">'.'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'Interval Start'</span><span class="p">],</span> <span class="p">[</span><span class="n">expected_points</span><span class="o">/</span><span class="mf">1e6</span> <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="n">df</span><span class="p">[</span><span class="s1">'count'</span><span class="p">]],</span> <span class="n">label</span><span class="o">=</span><span class="s1">'expected'</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">'Count</span><span class="se">\n</span><span class="s1">(millions)'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -1234,19 +1256,19 @@ plt.show()
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>fig, ax = plt.subplots(figsize=(10,2))
-ax.plot(df['Interval Start'], df['count']/1e6, label='observed', ls=' ', marker='.', alpha=0.5)
-ax.plot(df['Interval Start'], [expected_points/1e6 for e in df['count']], label='expected')
+<span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'Interval Start'</span><span class="p">],</span> <span class="n">df</span><span class="p">[</span><span class="s1">'count'</span><span class="p">]</span><span class="o">/</span><span class="mf">1e6</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'observed'</span><span class="p">,</span> <span class="n">ls</span><span class="o">=</span><span class="s1">' '</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">'.'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'Interval Start'</span><span class="p">],</span> <span class="p">[</span><span class="n">expected_points</span><span class="o">/</span><span class="mf">1e6</span> <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="n">df</span><span class="p">[</span><span class="s1">'count'</span><span class="p">]],</span> <span class="n">label</span><span class="o">=</span><span class="s1">'expected'</span><span class="p">)</span>
 
-upper = [expected_points/1e6 for e in df['count']]
-lower = [0 for e in df['count']]
-ax.fill_between(df['Interval Start'], upper, lower,
-                where=df['count'] &lt; expected_points-10, color='0.5', alpha=0.5,
-               label='gaps')
+<span class="n">upper</span> <span class="o">=</span> <span class="p">[</span><span class="n">expected_points</span><span class="o">/</span><span class="mf">1e6</span> <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="n">df</span><span class="p">[</span><span class="s1">'count'</span><span class="p">]]</span>
+<span class="n">lower</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span> <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="n">df</span><span class="p">[</span><span class="s1">'count'</span><span class="p">]]</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">fill_between</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'Interval Start'</span><span class="p">],</span> <span class="n">upper</span><span class="p">,</span> <span class="n">lower</span><span class="p">,</span>
+                <span class="n">where</span><span class="o">=</span><span class="n">df</span><span class="p">[</span><span class="s1">'count'</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">expected_points</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'0.5'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span>
+               <span class="n">label</span><span class="o">=</span><span class="s1">'gaps'</span><span class="p">)</span>
 
-ax.set_ylabel('Count\n(millions)', fontsize=14)
-ax.legend(fontsize=14)
-plt.show()
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">'Count</span><span class="se">\n</span><span class="s1">(millions)'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -1283,7 +1305,7 @@ plt.show()
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Basic Plots</p>
+            <p class="prev-next-title">4 - Basic Plots</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="queries.html" title="next page">

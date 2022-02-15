@@ -38,6 +38,7 @@
     <link rel="shortcut icon" href="../_static/tree.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="10 - Data Ingestion" href="ingestion.html" />
     <link rel="prev" title="8 - Windows, aligned windows, and values" href="windows.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -86,30 +87,32 @@
 </li>
 
 <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../data/index.html">
+  Data
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../blog/index.html">
-  Posts
+  Learn
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../workshops/index.html">
-  Workshops
+  Watch
  </a>
 </li>
 
 <li class="toctree-l1 current active nav-item">
  <a class="reference internal nav-link" href="index.html">
-  Tutorials
+  Code
  </a>
 </li>
 
     
     <li class="nav-item">
         <a class="nav-link nav-external" href="https://btrdb.readthedocs.io/en/latest/">API Docs<i class="fas fa-external-link-alt"></i></a>
-    </li>
-    
-    <li class="nav-item">
-        <a class="nav-link nav-external" href="https://github.com/PingThingsIO/ni4ai-notebooks/tree/main/tutorials">Tutorials<i class="fas fa-external-link-alt"></i></a>
     </li>
     
     <li class="nav-item">
@@ -191,7 +194,7 @@
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../blog/index.html">
-   Posts
+   Learn
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -200,8 +203,8 @@
   </label>
   <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../blog/data/index.html">
-     Data
+    <a class="reference internal" href="../blog/platform/index.html">
+     Platform
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
     <label for="toctree-checkbox-2">
@@ -210,13 +213,33 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/data/events.html">
-       Wide Area Events
+      <a class="reference internal" href="../blog/platform/plotter-demo.html">
+       Plotter Demo
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/data/monitoring.html">
-       Monitoring
+      <a class="reference internal" href="../blog/platform/api-demo.html">
+       Demo: Connecting to the API
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-explained.html">
+       BTrDB Explained
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-queries-pt1.html">
+       Memory Efficient BTrDB Queries: Part 1
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-queries-pt2.html">
+       Memory Efficient BTrDB Queries: Part 2
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/benchmarking-results.html">
+       PredictiveGrid Benchmarks
       </a>
      </li>
     </ul>
@@ -231,6 +254,11 @@
      </i>
     </label>
     <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/analysis/quadrature-demodulation.html">
+       Harmonic Phasor Estimation with Quadrature Demodulation
+      </a>
+     </li>
      <li class="toctree-l3">
       <a class="reference internal" href="../blog/analysis/spectral-analysis.html">
        Spectral Analysis (part 1)
@@ -314,7 +342,7 @@
     </ul>
    </li>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../blog/thoughts/index.html">
+    <a class="reference internal" href="../blog/commentary/index.html">
      Commentary
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
@@ -324,27 +352,17 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/fire-season.html">
+      <a class="reference internal" href="../blog/commentary/fire-season.html">
        Fire season is just around the corner
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/pmu-siting-2.html">
+      <a class="reference internal" href="../blog/commentary/pmu-siting-2.html">
        Choosing where to site distribution PMUs
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/sunshine-data.html">
-       A brief walkthrough of the Sunshine uPMU dataset
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/btrdb-explained.html">
-       BTrDB Explained
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/ekg-data.html">
+      <a class="reference internal" href="../blog/commentary/ekg-data.html">
        On EKG Data
       </a>
      </li>
@@ -360,16 +378,6 @@
      </i>
     </label>
     <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/ni4ai/demo-1.html">
-       Demo (Part 2): Exploring Data in “The Plotter”
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/ni4ai/demo-2.html">
-       Demo (Part 2): Establishing an API Connection
-      </a>
-     </li>
      <li class="toctree-l3">
       <a class="reference internal" href="../blog/ni4ai/add-sensors.html">
        Stream Data to NI4AI
@@ -390,13 +398,18 @@
        Expertise for Experts
       </a>
      </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/ni4ai/sunshine-data.html">
+       A brief walkthrough of the Sunshine uPMU dataset
+      </a>
+     </li>
     </ul>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../workshops/index.html">
-   Workshops
+   Watch
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
   <label for="toctree-checkbox-6">
@@ -433,7 +446,7 @@
  </li>
  <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="index.html">
-   Tutorials
+   Code
   </a>
   <input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
   <label for="toctree-checkbox-7">
@@ -442,8 +455,8 @@
   </label>
   <ul class="current">
    <li class="toctree-l2">
-    <a class="reference internal" href="plotter-demo.html">
-     Plotter Demo Video
+    <a class="reference internal" href="quickstart.html">
+     0 - PredictiveGrid in Python
     </a>
    </li>
    <li class="toctree-l2">
@@ -463,7 +476,7 @@
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="plots.html">
-     Basic Plots
+     4 - Basic Plots
     </a>
    </li>
    <li class="toctree-l2">
@@ -491,6 +504,11 @@
      9 - Visualizing Aggregates
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ingestion.html">
+     10 - Data Ingestion
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toctree-l1">
@@ -513,6 +531,11 @@
  <li class="toctree-l1">
   <a class="reference external" href="https://ni4ai.org/about">
    NI4AI
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://ni4ai.org/contact">
+   Contact Us
   </a>
  </li>
 </ul>
@@ -858,19 +881,19 @@ div.rendered_html tbody tr:hover {
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>import btrdb
-import pandas as pd
-import numpy as np
+<span></span><span class="kn">import</span> <span class="nn">btrdb</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 
-import time
+<span class="kn">import</span> <span class="nn">time</span>
 
 
-from datetime import datetime, timedelta
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">timedelta</span>
 
-from matplotlib import pyplot as plt
-from btrdb.utils import timez
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">from</span> <span class="nn">btrdb.utils</span> <span class="kn">import</span> <span class="n">timez</span>
 
-db = btrdb.connect()
+<span class="n">db</span> <span class="o">=</span> <span class="n">btrdb</span><span class="o">.</span><span class="n">connect</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -884,10 +907,10 @@ db = btrdb.connect()
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>streams = db.streams_in_collection('sunshine/PMU1', tags={'unit': 'volts'})
+<span></span><span class="n">streams</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">streams_in_collection</span><span class="p">(</span><span class="s1">'sunshine/PMU1'</span><span class="p">,</span> <span class="n">tags</span><span class="o">=</span><span class="p">{</span><span class="s1">'unit'</span><span class="p">:</span> <span class="s1">'volts'</span><span class="p">})</span>
 
-pd.DataFrame([[s.name, s.unit, s.collection] for s in streams],
-            columns=['name','unit','collection'])
+<span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([[</span><span class="n">s</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">s</span><span class="o">.</span><span class="n">unit</span><span class="p">,</span> <span class="n">s</span><span class="o">.</span><span class="n">collection</span><span class="p">]</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">streams</span><span class="p">],</span>
+            <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'name'</span><span class="p">,</span><span class="s1">'unit'</span><span class="p">,</span><span class="s1">'collection'</span><span class="p">])</span>
 </pre></div>
 </div>
 </div>
@@ -956,14 +979,14 @@ pd.DataFrame([[s.name, s.unit, s.collection] for s in streams],
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>stream = db.stream_from_uuid(streams[1].uuid)
+<span></span><span class="n">stream</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">stream_from_uuid</span><span class="p">(</span><span class="n">streams</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">uuid</span><span class="p">)</span>
 
-def get_time(stream, func):
-    return timez.ns_to_datetime(getattr(stream, func)()[0].time)
+<span class="k">def</span> <span class="nf">get_time</span><span class="p">(</span><span class="n">stream</span><span class="p">,</span> <span class="n">func</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">timez</span><span class="o">.</span><span class="n">ns_to_datetime</span><span class="p">(</span><span class="nb">getattr</span><span class="p">(</span><span class="n">stream</span><span class="p">,</span> <span class="n">func</span><span class="p">)()[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">time</span><span class="p">)</span>
 
-print('start:', get_time(streams[0], 'earliest'))
-print('end:', get_time(streams[0], 'latest'))
-print(str(get_time(streams[0], 'latest') - get_time(streams[0], 'earliest')))
+<span class="nb">print</span><span class="p">(</span><span class="s1">'start:'</span><span class="p">,</span> <span class="n">get_time</span><span class="p">(</span><span class="n">streams</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s1">'earliest'</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'end:'</span><span class="p">,</span> <span class="n">get_time</span><span class="p">(</span><span class="n">streams</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s1">'latest'</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">get_time</span><span class="p">(</span><span class="n">streams</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s1">'latest'</span><span class="p">)</span> <span class="o">-</span> <span class="n">get_time</span><span class="p">(</span><span class="n">streams</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s1">'earliest'</span><span class="p">)))</span>
 </pre></div>
 </div>
 </div>
@@ -991,11 +1014,11 @@ end: 2017-04-15 01:41:35.999999+00:00
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>start_time = datetime(2016,4,1)
-end_time = datetime(2017,4,1)
+<span></span><span class="n">start_time</span> <span class="o">=</span> <span class="n">datetime</span><span class="p">(</span><span class="mi">2016</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">end_time</span> <span class="o">=</span> <span class="n">datetime</span><span class="p">(</span><span class="mi">2017</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
 
-start_ns = timez.datetime_to_ns(start_time)
-end_ns = timez.datetime_to_ns(end_time)
+<span class="n">start_ns</span> <span class="o">=</span> <span class="n">timez</span><span class="o">.</span><span class="n">datetime_to_ns</span><span class="p">(</span><span class="n">start_time</span><span class="p">)</span>
+<span class="n">end_ns</span> <span class="o">=</span> <span class="n">timez</span><span class="o">.</span><span class="n">datetime_to_ns</span><span class="p">(</span><span class="n">end_time</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1007,11 +1030,11 @@ end_ns = timez.datetime_to_ns(end_time)
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>window = timez.ns_delta(days=30)
-pw = int(np.log2(window))
+<span></span><span class="n">window</span> <span class="o">=</span> <span class="n">timez</span><span class="o">.</span><span class="n">ns_delta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="mi">30</span><span class="p">)</span>
+<span class="n">pw</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">log2</span><span class="p">(</span><span class="n">window</span><span class="p">))</span>
 
-points, _ = zip(*stream.aligned_windows(start_ns, end_ns, pointwidth=pw))
-points
+<span class="n">points</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="n">stream</span><span class="o">.</span><span class="n">aligned_windows</span><span class="p">(</span><span class="n">start_ns</span><span class="p">,</span> <span class="n">end_ns</span><span class="p">,</span> <span class="n">pointwidth</span><span class="o">=</span><span class="n">pw</span><span class="p">))</span>
+<span class="n">points</span>
 </pre></div>
 </div>
 </div>
@@ -1049,18 +1072,18 @@ points
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>def points_to_dataframe(points,
-                        aggregates=['time','min','max','mean','stddev','count'],
-                        use_datetime_index=True):
-    df = pd.DataFrame([[getattr(p, agg) for agg in aggregates] for p in points],
-                         columns=aggregates)
-    if use_datetime_index:
-        df['datetime'] = [timez.ns_to_datetime(t) for t in df.time]
-        df = df.set_index('datetime')
-    return df
+<span></span><span class="k">def</span> <span class="nf">points_to_dataframe</span><span class="p">(</span><span class="n">points</span><span class="p">,</span>
+                        <span class="n">aggregates</span><span class="o">=</span><span class="p">[</span><span class="s1">'time'</span><span class="p">,</span><span class="s1">'min'</span><span class="p">,</span><span class="s1">'max'</span><span class="p">,</span><span class="s1">'mean'</span><span class="p">,</span><span class="s1">'stddev'</span><span class="p">,</span><span class="s1">'count'</span><span class="p">],</span>
+                        <span class="n">use_datetime_index</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([[</span><span class="nb">getattr</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">agg</span><span class="p">)</span> <span class="k">for</span> <span class="n">agg</span> <span class="ow">in</span> <span class="n">aggregates</span><span class="p">]</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">points</span><span class="p">],</span>
+                         <span class="n">columns</span><span class="o">=</span><span class="n">aggregates</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">use_datetime_index</span><span class="p">:</span>
+        <span class="n">df</span><span class="p">[</span><span class="s1">'datetime'</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">timez</span><span class="o">.</span><span class="n">ns_to_datetime</span><span class="p">(</span><span class="n">t</span><span class="p">)</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">time</span><span class="p">]</span>
+        <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'datetime'</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">df</span>
 
-df = points_to_dataframe(points)
-df
+<span class="n">df</span> <span class="o">=</span> <span class="n">points_to_dataframe</span><span class="p">(</span><span class="n">points</span><span class="p">)</span>
+<span class="n">df</span>
 </pre></div>
 </div>
 </div>
@@ -1248,20 +1271,20 @@ df
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>def plot_aggregates(df, vlines=[], hlines=[]):
-    fig, ax = plt.subplots(figsize=(15,3))
-    df['min'].plot(ax=ax, ls=' ', marker='_', color='black', markersize=5, label='minimum')
-    df['max'].plot(ax=ax, ls=' ', marker='_', color='black', markersize=5, label='maximum')
-    df['mean'].plot(ax=ax, label='average', ls=' ', marker='.')
-    ax.fill_between(df.index, df['mean']-df['stddev'], df['mean'] + df['stddev'], alpha=0.5, label=r'$+/- 1\times\sigma$')
-    plt.legend()
+<span></span><span class="k">def</span> <span class="nf">plot_aggregates</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">vlines</span><span class="o">=</span><span class="p">[],</span> <span class="n">hlines</span><span class="o">=</span><span class="p">[]):</span>
+    <span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+    <span class="n">df</span><span class="p">[</span><span class="s1">'min'</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">,</span> <span class="n">ls</span><span class="o">=</span><span class="s1">' '</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">'_'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'black'</span><span class="p">,</span> <span class="n">markersize</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'minimum'</span><span class="p">)</span>
+    <span class="n">df</span><span class="p">[</span><span class="s1">'max'</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">,</span> <span class="n">ls</span><span class="o">=</span><span class="s1">' '</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">'_'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'black'</span><span class="p">,</span> <span class="n">markersize</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'maximum'</span><span class="p">)</span>
+    <span class="n">df</span><span class="p">[</span><span class="s1">'mean'</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'average'</span><span class="p">,</span> <span class="n">ls</span><span class="o">=</span><span class="s1">' '</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">'.'</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">fill_between</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">df</span><span class="p">[</span><span class="s1">'mean'</span><span class="p">]</span><span class="o">-</span><span class="n">df</span><span class="p">[</span><span class="s1">'stddev'</span><span class="p">],</span> <span class="n">df</span><span class="p">[</span><span class="s1">'mean'</span><span class="p">]</span> <span class="o">+</span> <span class="n">df</span><span class="p">[</span><span class="s1">'stddev'</span><span class="p">],</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">r</span><span class="s1">'$+/- 1\times\sigma$'</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
 
-    ax.vlines(vlines, *ax.get_ylim(), color='0.5', alpha=0.5, zorder=10, lw=3, label='events')
-    ax.hlines(hlines, *ax.get_xlim(), color='0.5', zorder=10, lw=1, ls='--', label='threshold')
-    return fig
+    <span class="n">ax</span><span class="o">.</span><span class="n">vlines</span><span class="p">(</span><span class="n">vlines</span><span class="p">,</span> <span class="o">*</span><span class="n">ax</span><span class="o">.</span><span class="n">get_ylim</span><span class="p">(),</span> <span class="n">color</span><span class="o">=</span><span class="s1">'0.5'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">zorder</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'events'</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">hlines</span><span class="p">(</span><span class="n">hlines</span><span class="p">,</span> <span class="o">*</span><span class="n">ax</span><span class="o">.</span><span class="n">get_xlim</span><span class="p">(),</span> <span class="n">color</span><span class="o">=</span><span class="s1">'0.5'</span><span class="p">,</span> <span class="n">zorder</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">ls</span><span class="o">=</span><span class="s1">'--'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'threshold'</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">fig</span>
 
-plot_aggregates(df)
-plt.show()
+<span class="n">plot_aggregates</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -1288,12 +1311,12 @@ plt.show()
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>window = timez.ns_delta(days=7)
-pw = int(np.log2(window))
+<span></span><span class="n">window</span> <span class="o">=</span> <span class="n">timez</span><span class="o">.</span><span class="n">ns_delta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
+<span class="n">pw</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">log2</span><span class="p">(</span><span class="n">window</span><span class="p">))</span>
 
-points, _ = zip(*stream.aligned_windows(start_ns, end_ns, pointwidth=pw))
-df = points_to_dataframe(points)
-fig = plot_aggregates(df)
+<span class="n">points</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="n">stream</span><span class="o">.</span><span class="n">aligned_windows</span><span class="p">(</span><span class="n">start_ns</span><span class="p">,</span> <span class="n">end_ns</span><span class="p">,</span> <span class="n">pointwidth</span><span class="o">=</span><span class="n">pw</span><span class="p">))</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">points_to_dataframe</span><span class="p">(</span><span class="n">points</span><span class="p">)</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">plot_aggregates</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1315,12 +1338,12 @@ fig = plot_aggregates(df)
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>window = timez.ns_delta(days=1)
-pw = int(np.log2(window))
+<span></span><span class="n">window</span> <span class="o">=</span> <span class="n">timez</span><span class="o">.</span><span class="n">ns_delta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">pw</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">log2</span><span class="p">(</span><span class="n">window</span><span class="p">))</span>
 
-points, _ = zip(*stream.aligned_windows(start_ns, end_ns, pointwidth=pw))
-df = points_to_dataframe(points)
-fig = plot_aggregates(df)
+<span class="n">points</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="n">stream</span><span class="o">.</span><span class="n">aligned_windows</span><span class="p">(</span><span class="n">start_ns</span><span class="p">,</span> <span class="n">end_ns</span><span class="p">,</span> <span class="n">pointwidth</span><span class="o">=</span><span class="n">pw</span><span class="p">))</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">points_to_dataframe</span><span class="p">(</span><span class="n">points</span><span class="p">)</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">plot_aggregates</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1358,6 +1381,13 @@ fig = plot_aggregates(df)
             <p class="prev-next-subtitle">previous</p>
             <p class="prev-next-title">8 - Windows, aligned windows, and values</p>
         </div>
+    </a>
+    <a class='right-next' id="next-link" href="ingestion.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">10 - Data Ingestion</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
     </a>
 </div>
               

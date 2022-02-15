@@ -87,30 +87,32 @@
 </li>
 
 <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../data/index.html">
+  Data
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../blog/index.html">
-  Posts
+  Learn
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../workshops/index.html">
-  Workshops
+  Watch
  </a>
 </li>
 
 <li class="toctree-l1 current active nav-item">
  <a class="reference internal nav-link" href="index.html">
-  Tutorials
+  Code
  </a>
 </li>
 
     
     <li class="nav-item">
         <a class="nav-link nav-external" href="https://btrdb.readthedocs.io/en/latest/">API Docs<i class="fas fa-external-link-alt"></i></a>
-    </li>
-    
-    <li class="nav-item">
-        <a class="nav-link nav-external" href="https://github.com/PingThingsIO/ni4ai-notebooks/tree/main/tutorials">Tutorials<i class="fas fa-external-link-alt"></i></a>
     </li>
     
     <li class="nav-item">
@@ -192,7 +194,7 @@
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../blog/index.html">
-   Posts
+   Learn
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -201,8 +203,8 @@
   </label>
   <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../blog/data/index.html">
-     Data
+    <a class="reference internal" href="../blog/platform/index.html">
+     Platform
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
     <label for="toctree-checkbox-2">
@@ -211,13 +213,33 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/data/events.html">
-       Wide Area Events
+      <a class="reference internal" href="../blog/platform/plotter-demo.html">
+       Plotter Demo
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/data/monitoring.html">
-       Monitoring
+      <a class="reference internal" href="../blog/platform/api-demo.html">
+       Demo: Connecting to the API
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-explained.html">
+       BTrDB Explained
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-queries-pt1.html">
+       Memory Efficient BTrDB Queries: Part 1
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-queries-pt2.html">
+       Memory Efficient BTrDB Queries: Part 2
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/benchmarking-results.html">
+       PredictiveGrid Benchmarks
       </a>
      </li>
     </ul>
@@ -232,6 +254,11 @@
      </i>
     </label>
     <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/analysis/quadrature-demodulation.html">
+       Harmonic Phasor Estimation with Quadrature Demodulation
+      </a>
+     </li>
      <li class="toctree-l3">
       <a class="reference internal" href="../blog/analysis/spectral-analysis.html">
        Spectral Analysis (part 1)
@@ -315,7 +342,7 @@
     </ul>
    </li>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../blog/thoughts/index.html">
+    <a class="reference internal" href="../blog/commentary/index.html">
      Commentary
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
@@ -325,27 +352,17 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/fire-season.html">
+      <a class="reference internal" href="../blog/commentary/fire-season.html">
        Fire season is just around the corner
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/pmu-siting-2.html">
+      <a class="reference internal" href="../blog/commentary/pmu-siting-2.html">
        Choosing where to site distribution PMUs
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/sunshine-data.html">
-       A brief walkthrough of the Sunshine uPMU dataset
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/btrdb-explained.html">
-       BTrDB Explained
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/ekg-data.html">
+      <a class="reference internal" href="../blog/commentary/ekg-data.html">
        On EKG Data
       </a>
      </li>
@@ -361,16 +378,6 @@
      </i>
     </label>
     <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/ni4ai/demo-1.html">
-       Demo (Part 2): Exploring Data in “The Plotter”
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/ni4ai/demo-2.html">
-       Demo (Part 2): Establishing an API Connection
-      </a>
-     </li>
      <li class="toctree-l3">
       <a class="reference internal" href="../blog/ni4ai/add-sensors.html">
        Stream Data to NI4AI
@@ -391,13 +398,18 @@
        Expertise for Experts
       </a>
      </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/ni4ai/sunshine-data.html">
+       A brief walkthrough of the Sunshine uPMU dataset
+      </a>
+     </li>
     </ul>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../workshops/index.html">
-   Workshops
+   Watch
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
   <label for="toctree-checkbox-6">
@@ -434,7 +446,7 @@
  </li>
  <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="index.html">
-   Tutorials
+   Code
   </a>
   <input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
   <label for="toctree-checkbox-7">
@@ -443,8 +455,8 @@
   </label>
   <ul class="current">
    <li class="toctree-l2">
-    <a class="reference internal" href="plotter-demo.html">
-     Plotter Demo Video
+    <a class="reference internal" href="quickstart.html">
+     0 - PredictiveGrid in Python
     </a>
    </li>
    <li class="toctree-l2">
@@ -464,7 +476,7 @@
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="plots.html">
-     Basic Plots
+     4 - Basic Plots
     </a>
    </li>
    <li class="toctree-l2">
@@ -492,6 +504,11 @@
      9 - Visualizing Aggregates
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ingestion.html">
+     10 - Data Ingestion
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toctree-l1">
@@ -516,6 +533,11 @@
    NI4AI
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://ni4ai.org/contact">
+   Contact Us
+  </a>
+ </li>
 </ul>
 
   </div>
@@ -536,91 +558,84 @@
 
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   8 - Windows, aligned windows, and values
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#Functions-used">
+   Functions used
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#Functions-used">
-     Functions used
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#Querying-data">
-     Querying data
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#That’s-a-lot-of-data!">
-     That’s a lot of data!
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#Querying-data">
+   Querying data
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#That’s-a-lot-of-data!">
+   That’s a lot of data!
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#Windows-Queries">
+     Windows Queries
     </a>
    </li>
   </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#Windows-Queries">
-   Windows Queries
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#What-just-happened?">
+   What just happened?
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#What-just-happened?">
-     What just happened?
-    </a>
-   </li>
-  </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#What-happens-if-we-zoom-in?">
    What happens if we zoom in?
   </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#Aligned-windows">
-   Aligned windows
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#Getting-more-granular-with-aligned_windows">
-   Getting more granular with aligned_windows
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#When-to-use-values">
-   When to use
-   <code class="docutils literal notranslate">
-    <span class="pre">
-     values
-    </span>
-   </code>
-  </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#Final-note…">
-     Final note…
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#Aligned-windows">
+     Aligned windows
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#aligned_windows-queries-in-action">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       aligned_windows
-      </span>
-     </code>
-     queries in action
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#Getting-more-granular-with-aligned_windows">
+     Getting more granular with aligned_windows
     </a>
    </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#values-queries-in-action">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#When-to-use-values">
+     When to use
      <code class="docutils literal notranslate">
       <span class="pre">
        values
       </span>
      </code>
-     queries in action
     </a>
    </li>
   </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#Final-note…">
+   Final note…
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#aligned_windows-queries-in-action">
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     aligned_windows
+    </span>
+   </code>
+   queries in action
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#values-queries-in-action">
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     values
+    </span>
+   </code>
+   queries in action
+  </a>
  </li>
 </ul>
 
@@ -917,13 +932,13 @@ div.rendered_html tbody tr:hover {
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>import btrdb
-import pandas as pd
-import numpy as np
-from btrdb.utils.timez import *
-from datetime import datetime, timedelta
+<span></span><span class="kn">import</span> <span class="nn">btrdb</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">btrdb.utils.timez</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">timedelta</span>
 
-from matplotlib import pyplot as plt
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
 </pre></div>
 </div>
 </div>
@@ -934,7 +949,7 @@ from matplotlib import pyplot as plt
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>db = btrdb.connect()
+<span></span><span class="n">db</span> <span class="o">=</span> <span class="n">btrdb</span><span class="o">.</span><span class="n">connect</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -951,14 +966,14 @@ from matplotlib import pyplot as plt
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>streams = db.streams_in_collection('sunshine/PMU1', tags={'name': 'L1MAG'})
-stream = streams[0]
-print('collection:\t', stream.collection)
-print('stream name:\t', stream.name)
+<span></span><span class="n">streams</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">streams_in_collection</span><span class="p">(</span><span class="s1">'sunshine/PMU1'</span><span class="p">,</span> <span class="n">tags</span><span class="o">=</span><span class="p">{</span><span class="s1">'name'</span><span class="p">:</span> <span class="s1">'L1MAG'</span><span class="p">})</span>
+<span class="n">stream</span> <span class="o">=</span> <span class="n">streams</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'collection:</span><span class="se">\t</span><span class="s1">'</span><span class="p">,</span> <span class="n">stream</span><span class="o">.</span><span class="n">collection</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'stream name:</span><span class="se">\t</span><span class="s1">'</span><span class="p">,</span> <span class="n">stream</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
 
-# How many points is that?
-print('size:\t\t', round(stream.count()/1e9,2), 'billion points')
-print('volume:\t\t', round(stream.count()*64*2/8/1e9,2), 'gigabytes')
+<span class="c1"># How many points is that?</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'size:</span><span class="se">\t\t</span><span class="s1">'</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="n">stream</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="o">/</span><span class="mf">1e9</span><span class="p">,</span><span class="mi">2</span><span class="p">),</span> <span class="s1">'billion points'</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'volume:</span><span class="se">\t\t</span><span class="s1">'</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="n">stream</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="o">*</span><span class="mi">64</span><span class="o">*</span><span class="mi">2</span><span class="o">/</span><span class="mi">8</span><span class="o">/</span><span class="mf">1e9</span><span class="p">,</span><span class="mi">2</span><span class="p">),</span> <span class="s1">'gigabytes'</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -980,12 +995,9 @@ volume:          82.29 gigabytes
 </h2>
 <p>Querying that much data will likely overload your computing environment and will likely take quite a long time to get the data back to you.</p>
 <p><strong>Is there a better way?</strong></p>
-</section>
-</section>
-
 <section id="Windows-Queries">
-<h1>Windows Queries<a class="headerlink" href="#Windows-Queries" title="Permalink to this headline">¶</a>
-</h1>
+<h3>Windows Queries<a class="headerlink" href="#Windows-Queries" title="Permalink to this headline">¶</a>
+</h3>
 <p>Windows queries provide <em>statistical aggregates</em> or “summary statistics” of raw data points in a given time interval. A windows query will return a time series of <code class="docutils literal notranslate"><span class="pre">StatPoint</span></code> objects, which can be used to explore summary statistics of raw values over time.</p>
 <p>New to <code class="docutils literal notranslate"><span class="pre">StatPoints</span></code>? Start with the tutorial below.</p>
 <p><a class="reference external" href="https://github.com/PingThingsIO/ni4ai-notebooks/blob/main/tutorials/5%20-%20Working%20with%20StatPoints.ipynb">https://github.com/PingThingsIO/ni4ai-notebooks/blob/main/tutorials/5%20-%20Working%20with%20StatPoints.ipynb</a></p>
@@ -996,19 +1008,19 @@ volume:          82.29 gigabytes
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>t0 = currently_as_ns()
+<span></span><span class="n">t0</span> <span class="o">=</span> <span class="n">currently_as_ns</span><span class="p">()</span>
 
-start, _ = stream.earliest()
-start = ns_to_datetime(start.time)
+<span class="n">start</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">earliest</span><span class="p">()</span>
+<span class="n">start</span> <span class="o">=</span> <span class="n">ns_to_datetime</span><span class="p">(</span><span class="n">start</span><span class="o">.</span><span class="n">time</span><span class="p">)</span>
 
-end, _ = stream.latest()
-end = ns_to_datetime(end.time)
+<span class="n">end</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">latest</span><span class="p">()</span>
+<span class="n">end</span> <span class="o">=</span> <span class="n">ns_to_datetime</span><span class="p">(</span><span class="n">end</span><span class="o">.</span><span class="n">time</span><span class="p">)</span>
 
-window = ns_delta(days=5)
+<span class="n">window</span> <span class="o">=</span> <span class="n">ns_delta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
 
-start_time = datetime(start.year, start.month, start.day+1)
-statpoints = stream.windows(start_time, end, window)
-print('Runtime: %.2f seconds'%((currently_as_ns()-t0)/1e9))
+<span class="n">start_time</span> <span class="o">=</span> <span class="n">datetime</span><span class="p">(</span><span class="n">start</span><span class="o">.</span><span class="n">year</span><span class="p">,</span> <span class="n">start</span><span class="o">.</span><span class="n">month</span><span class="p">,</span> <span class="n">start</span><span class="o">.</span><span class="n">day</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">statpoints</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">windows</span><span class="p">(</span><span class="n">start_time</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">window</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Runtime: </span><span class="si">%.2f</span><span class="s1"> seconds'</span><span class="o">%</span><span class="p">((</span><span class="n">currently_as_ns</span><span class="p">()</span><span class="o">-</span><span class="n">t0</span><span class="p">)</span><span class="o">/</span><span class="mf">1e9</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
@@ -1028,20 +1040,20 @@ Runtime: 0.24 seconds
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>def statpoints_to_dataframe(statpoints, datetime_index=True):
-    attributes = ['min','mean','max','stddev','count','time',]
+<span></span><span class="k">def</span> <span class="nf">statpoints_to_dataframe</span><span class="p">(</span><span class="n">statpoints</span><span class="p">,</span> <span class="n">datetime_index</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="n">attributes</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'min'</span><span class="p">,</span><span class="s1">'mean'</span><span class="p">,</span><span class="s1">'max'</span><span class="p">,</span><span class="s1">'stddev'</span><span class="p">,</span><span class="s1">'count'</span><span class="p">,</span><span class="s1">'time'</span><span class="p">,]</span>
 
-    df = pd.DataFrame([[getattr(p, attr) for attr in attributes] for p, _ in statpoints],
-                     columns=attributes)
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([[</span><span class="nb">getattr</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">attr</span><span class="p">)</span> <span class="k">for</span> <span class="n">attr</span> <span class="ow">in</span> <span class="n">attributes</span><span class="p">]</span> <span class="k">for</span> <span class="n">p</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">statpoints</span><span class="p">],</span>
+                     <span class="n">columns</span><span class="o">=</span><span class="n">attributes</span><span class="p">)</span>
 
-    if datetime_index:
-        df['datetime'] = [ns_to_datetime(t) for t in df['time']]
-        return df.set_index('datetime')
-    else:
-        return df
+    <span class="k">if</span> <span class="n">datetime_index</span><span class="p">:</span>
+        <span class="n">df</span><span class="p">[</span><span class="s1">'datetime'</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">ns_to_datetime</span><span class="p">(</span><span class="n">t</span><span class="p">)</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">df</span><span class="p">[</span><span class="s1">'time'</span><span class="p">]]</span>
+        <span class="k">return</span> <span class="n">df</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'datetime'</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">df</span>
 
-df = statpoints_to_dataframe(statpoints)
-df.head()
+<span class="n">df</span> <span class="o">=</span> <span class="n">statpoints_to_dataframe</span><span class="p">(</span><span class="n">statpoints</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -1137,6 +1149,8 @@ df.head()
 </div>
 </div>
 </div>
+</section>
+</section>
 <section id="What-just-happened?">
 <h2>What just happened?<a class="headerlink" href="#What-just-happened?" title="Permalink to this headline">¶</a>
 </h2>
@@ -1144,11 +1158,9 @@ df.head()
 <p>Those 18 months are partitioned into 5-day time increments (as specified by the <code class="docutils literal notranslate"><span class="pre">window</span></code> parameter). Each StatPoint reports summary statistics of values observed during that time frame.</p>
 <p>Note that pulling all 9+ billion raw point values for the same interval would have taken MUCH longer, and would have returned more data than would have been feasible to hold in RAM. Leveraging StatPoint objects makes it feasible to mine through long time intervals of data to look for trends or event signatures that warrant more detailed / granular analysis.</p>
 </section>
-</section>
-
 <section id="What-happens-if-we-zoom-in?">
-<h1>What happens if we zoom in?<a class="headerlink" href="#What-happens-if-we-zoom-in?" title="Permalink to this headline">¶</a>
-</h1>
+<h2>What happens if we zoom in?<a class="headerlink" href="#What-happens-if-we-zoom-in?" title="Permalink to this headline">¶</a>
+</h2>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate">
 <div class="highlight"><pre><span></span>[6]:
@@ -1156,16 +1168,16 @@ df.head()
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>t0 = currently_as_ns()
+<span></span><span class="n">t0</span> <span class="o">=</span> <span class="n">currently_as_ns</span><span class="p">()</span>
 
-window = ns_delta(days=1)
-statpoints = stream.windows(start, end, window)
-print('Data Duration:',(end-start))
-print('Aggregation window:', timedelta(seconds=int(window/1e9)))
-print('Runtime: %.2f seconds'%((currently_as_ns()-t0)/1e9))
+<span class="n">window</span> <span class="o">=</span> <span class="n">ns_delta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">statpoints</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">windows</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">window</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Data Duration:'</span><span class="p">,(</span><span class="n">end</span><span class="o">-</span><span class="n">start</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Aggregation window:'</span><span class="p">,</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">seconds</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">window</span><span class="o">/</span><span class="mf">1e9</span><span class="p">)))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Runtime: </span><span class="si">%.2f</span><span class="s1"> seconds'</span><span class="o">%</span><span class="p">((</span><span class="n">currently_as_ns</span><span class="p">()</span><span class="o">-</span><span class="n">t0</span><span class="p">)</span><span class="o">/</span><span class="mf">1e9</span><span class="p">))</span>
 
-df = statpoints_to_dataframe(statpoints)
-df.head()
+<span class="n">df</span> <span class="o">=</span> <span class="n">statpoints_to_dataframe</span><span class="p">(</span><span class="n">statpoints</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -1272,11 +1284,9 @@ Runtime: 1.39 seconds
 </div>
 </div>
 </div>
-</section>
-
 <section id="Aligned-windows">
-<h1>Aligned windows<a class="headerlink" href="#Aligned-windows" title="Permalink to this headline">¶</a>
-</h1>
+<h3>Aligned windows<a class="headerlink" href="#Aligned-windows" title="Permalink to this headline">¶</a>
+</h3>
 <p>Aligned windows return results that look very much like windows queries. The only differece is that time stamps are adjusted to align with time windows stored inherently in the database. Where <code class="docutils literal notranslate"><span class="pre">windows</span></code> queries may need to re-compute statistical aggregates over the time window requested, <code class="docutils literal notranslate"><span class="pre">aligned_windows</span></code> queries can leverage pre-computed values.</p>
 <p>Let’s look at the difference in performance.</p>
 <div class="nbinput docutils container">
@@ -1286,17 +1296,17 @@ Runtime: 1.39 seconds
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>window = ns_delta(days=1)
-pw = np.log2(window)
+<span></span><span class="n">window</span> <span class="o">=</span> <span class="n">ns_delta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">pw</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">log2</span><span class="p">(</span><span class="n">window</span><span class="p">)</span>
 
-t0 = currently_as_ns()
-statpoints = stream.aligned_windows(start, end, pointwidth=pw)
-print('Data Duration:',(end-start))
-print('Aggregation window:', timedelta(seconds=int(window/1e9)))
-print('Runtime: %.2f seconds'%((currently_as_ns()-t0)/1e9))
+<span class="n">t0</span> <span class="o">=</span> <span class="n">currently_as_ns</span><span class="p">()</span>
+<span class="n">statpoints</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">aligned_windows</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">pointwidth</span><span class="o">=</span><span class="n">pw</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Data Duration:'</span><span class="p">,(</span><span class="n">end</span><span class="o">-</span><span class="n">start</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Aggregation window:'</span><span class="p">,</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">seconds</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">window</span><span class="o">/</span><span class="mf">1e9</span><span class="p">)))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Runtime: </span><span class="si">%.2f</span><span class="s1"> seconds'</span><span class="o">%</span><span class="p">((</span><span class="n">currently_as_ns</span><span class="p">()</span><span class="o">-</span><span class="n">t0</span><span class="p">)</span><span class="o">/</span><span class="mf">1e9</span><span class="p">))</span>
 
-df = statpoints_to_dataframe(statpoints)
-df.head()
+<span class="n">df</span> <span class="o">=</span> <span class="n">statpoints_to_dataframe</span><span class="p">(</span><span class="n">statpoints</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -1411,19 +1421,19 @@ Runtime: 0.01 seconds
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>print('WINDOW DURATION')
-print('\tAs specified:', timedelta(seconds=int(window/1e9)))
-print('\tAs returned:', btrdb.utils.general.pointwidth(pw))
+<span></span><span class="nb">print</span><span class="p">(</span><span class="s1">'WINDOW DURATION'</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\t</span><span class="s1">As specified:'</span><span class="p">,</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">seconds</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">window</span><span class="o">/</span><span class="mf">1e9</span><span class="p">)))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\t</span><span class="s1">As returned:'</span><span class="p">,</span> <span class="n">btrdb</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">general</span><span class="o">.</span><span class="n">pointwidth</span><span class="p">(</span><span class="n">pw</span><span class="p">))</span>
 
 
-print('\n\nSTART TIME')
-print('\tAs specified:', start)
-print('\tAs returned:', df.index.min())
+<span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\n\n</span><span class="s1">START TIME'</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\t</span><span class="s1">As specified:'</span><span class="p">,</span> <span class="n">start</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\t</span><span class="s1">As returned:'</span><span class="p">,</span> <span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">min</span><span class="p">())</span>
 
 
-print('\n\nEND TIME')
-print('\tAs specified:', end)
-print('\tAs returned:', df.index.max()+timedelta(seconds=int(window/1e9)))
+<span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\n\n</span><span class="s1">END TIME'</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\t</span><span class="s1">As specified:'</span><span class="p">,</span> <span class="n">end</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\t</span><span class="s1">As returned:'</span><span class="p">,</span> <span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">+</span><span class="n">timedelta</span><span class="p">(</span><span class="n">seconds</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">window</span><span class="o">/</span><span class="mf">1e9</span><span class="p">)))</span>
 </pre></div>
 </div>
 </div>
@@ -1449,10 +1459,9 @@ END TIME
 </div>
 </div>
 </section>
-
 <section id="Getting-more-granular-with-aligned_windows">
-<h1>Getting more granular with aligned_windows<a class="headerlink" href="#Getting-more-granular-with-aligned_windows" title="Permalink to this headline">¶</a>
-</h1>
+<h3>Getting more granular with aligned_windows<a class="headerlink" href="#Getting-more-granular-with-aligned_windows" title="Permalink to this headline">¶</a>
+</h3>
 <p>Performance on <code class="docutils literal notranslate"><span class="pre">aligned_windows</span></code> queries is much faster, and will enable you to query data more quickly and at finer resolutions that you’ll be able to do using <code class="docutils literal notranslate"><span class="pre">windows</span></code>.</p>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate">
@@ -1461,15 +1470,15 @@ END TIME
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>window = ns_delta(hours=6)
-pw = np.log2(window)
+<span></span><span class="n">window</span> <span class="o">=</span> <span class="n">ns_delta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">6</span><span class="p">)</span>
+<span class="n">pw</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">log2</span><span class="p">(</span><span class="n">window</span><span class="p">)</span>
 
-t0 = currently_as_ns()
-statpoints = stream.aligned_windows(start, end, pointwidth=pw)
+<span class="n">t0</span> <span class="o">=</span> <span class="n">currently_as_ns</span><span class="p">()</span>
+<span class="n">statpoints</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">aligned_windows</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">pointwidth</span><span class="o">=</span><span class="n">pw</span><span class="p">)</span>
 
-print('Data Duration:',(end-start))
-print('Aggregation window:', btrdb.utils.general.pointwidth(pw))
-print('Runtime: %.2f seconds'%((currently_as_ns()-t0)/1e9))
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Data Duration:'</span><span class="p">,(</span><span class="n">end</span><span class="o">-</span><span class="n">start</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Aggregation window:'</span><span class="p">,</span> <span class="n">btrdb</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">general</span><span class="o">.</span><span class="n">pointwidth</span><span class="p">(</span><span class="n">pw</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Runtime: </span><span class="si">%.2f</span><span class="s1"> seconds'</span><span class="o">%</span><span class="p">((</span><span class="n">currently_as_ns</span><span class="p">()</span><span class="o">-</span><span class="n">t0</span><span class="p">)</span><span class="o">/</span><span class="mf">1e9</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
@@ -1491,15 +1500,15 @@ Runtime: 0.02 seconds
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>window = ns_delta(minutes=30)
-pw = np.log2(window)
+<span></span><span class="n">window</span> <span class="o">=</span> <span class="n">ns_delta</span><span class="p">(</span><span class="n">minutes</span><span class="o">=</span><span class="mi">30</span><span class="p">)</span>
+<span class="n">pw</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">log2</span><span class="p">(</span><span class="n">window</span><span class="p">)</span>
 
-t0 = currently_as_ns()
-statpoints = stream.aligned_windows(start, end, pointwidth=pw)
+<span class="n">t0</span> <span class="o">=</span> <span class="n">currently_as_ns</span><span class="p">()</span>
+<span class="n">statpoints</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">aligned_windows</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">pointwidth</span><span class="o">=</span><span class="n">pw</span><span class="p">)</span>
 
-print('Data Duration:',(end-start))
-print('Aggregation window:', btrdb.utils.general.pointwidth(pw))
-print('Runtime: %.2f seconds'%((currently_as_ns()-t0)/1e9))
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Data Duration:'</span><span class="p">,(</span><span class="n">end</span><span class="o">-</span><span class="n">start</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Aggregation window:'</span><span class="p">,</span> <span class="n">btrdb</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">general</span><span class="o">.</span><span class="n">pointwidth</span><span class="p">(</span><span class="n">pw</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Runtime: </span><span class="si">%.2f</span><span class="s1"> seconds'</span><span class="o">%</span><span class="p">((</span><span class="n">currently_as_ns</span><span class="p">()</span><span class="o">-</span><span class="n">t0</span><span class="p">)</span><span class="o">/</span><span class="mf">1e9</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
@@ -1521,15 +1530,15 @@ Runtime: 2.13 seconds
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>window = ns_delta(minutes=5)
-pw = np.log2(window)
+<span></span><span class="n">window</span> <span class="o">=</span> <span class="n">ns_delta</span><span class="p">(</span><span class="n">minutes</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">pw</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">log2</span><span class="p">(</span><span class="n">window</span><span class="p">)</span>
 
-t0 = currently_as_ns()
-statpoints = stream.aligned_windows(start, end, pointwidth=pw)
+<span class="n">t0</span> <span class="o">=</span> <span class="n">currently_as_ns</span><span class="p">()</span>
+<span class="n">statpoints</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">aligned_windows</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">pointwidth</span><span class="o">=</span><span class="n">pw</span><span class="p">)</span>
 
-print('Data Duration:',(end-start))
-print('Aggregation window:', btrdb.utils.general.pointwidth(pw))
-print('Runtime: %.2f seconds'%((currently_as_ns()-t0)/1e9))
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Data Duration:'</span><span class="p">,(</span><span class="n">end</span><span class="o">-</span><span class="n">start</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Aggregation window:'</span><span class="p">,</span> <span class="n">btrdb</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">general</span><span class="o">.</span><span class="n">pointwidth</span><span class="p">(</span><span class="n">pw</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Runtime: </span><span class="si">%.2f</span><span class="s1"> seconds'</span><span class="o">%</span><span class="p">((</span><span class="n">currently_as_ns</span><span class="p">()</span><span class="o">-</span><span class="n">t0</span><span class="p">)</span><span class="o">/</span><span class="mf">1e9</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
@@ -1547,10 +1556,9 @@ Runtime: 1.51 seconds
 <p>That last query took a while! Let’s make note that querying 1.5 years of data at 1-minute resolution is starting to push the limits of what our environment (or patience!) can handle.</p>
 <p>It is possible to speed that up, however, by using a larger computing environment.</p>
 </section>
-
 <section id="When-to-use-values">
-<h1>When to use <code class="docutils literal notranslate"><span class="pre">values</span></code><a class="headerlink" href="#When-to-use-values" title="Permalink to this headline">¶</a>
-</h1>
+<h3>When to use <code class="docutils literal notranslate"><span class="pre">values</span></code><a class="headerlink" href="#When-to-use-values" title="Permalink to this headline">¶</a>
+</h3>
 <p>Many analytics can be done using StatPoints to summarize steady state characteristics of the data at the time-scale that is of interest, or to identify intervals in the data where there is an “event” in the data.</p>
 <p>Here, we’ll simply explore at what point values queries become intractable to perform.</p>
 <div class="nbinput docutils container">
@@ -1560,13 +1568,13 @@ Runtime: 1.51 seconds
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>window = ns_delta(minutes=1)
-start_time = datetime_to_ns(start)
-end_time = start_time + window
+<span></span><span class="n">window</span> <span class="o">=</span> <span class="n">ns_delta</span><span class="p">(</span><span class="n">minutes</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">start_time</span> <span class="o">=</span> <span class="n">datetime_to_ns</span><span class="p">(</span><span class="n">start</span><span class="p">)</span>
+<span class="n">end_time</span> <span class="o">=</span> <span class="n">start_time</span> <span class="o">+</span> <span class="n">window</span>
 
-t0 = currently_as_ns()
-statpoints = stream.values(start_time, end_time)
-print('Runtime: %.2f seconds'%((currently_as_ns()-t0)/1e9))
+<span class="n">t0</span> <span class="o">=</span> <span class="n">currently_as_ns</span><span class="p">()</span>
+<span class="n">statpoints</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">start_time</span><span class="p">,</span> <span class="n">end_time</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Runtime: </span><span class="si">%.2f</span><span class="s1"> seconds'</span><span class="o">%</span><span class="p">((</span><span class="n">currently_as_ns</span><span class="p">()</span><span class="o">-</span><span class="n">t0</span><span class="p">)</span><span class="o">/</span><span class="mf">1e9</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
@@ -1586,13 +1594,13 @@ Runtime: 0.06 seconds
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>window = ns_delta(minutes=10)
-start_time = datetime_to_ns(start)
-end_time = start_time + window
+<span></span><span class="n">window</span> <span class="o">=</span> <span class="n">ns_delta</span><span class="p">(</span><span class="n">minutes</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">start_time</span> <span class="o">=</span> <span class="n">datetime_to_ns</span><span class="p">(</span><span class="n">start</span><span class="p">)</span>
+<span class="n">end_time</span> <span class="o">=</span> <span class="n">start_time</span> <span class="o">+</span> <span class="n">window</span>
 
-t0 = currently_as_ns()
-statpoints = stream.values(start_time, end_time)
-print('Runtime: %.2f seconds'%((currently_as_ns()-t0)/1e9))
+<span class="n">t0</span> <span class="o">=</span> <span class="n">currently_as_ns</span><span class="p">()</span>
+<span class="n">statpoints</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">start_time</span><span class="p">,</span> <span class="n">end_time</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Runtime: </span><span class="si">%.2f</span><span class="s1"> seconds'</span><span class="o">%</span><span class="p">((</span><span class="n">currently_as_ns</span><span class="p">()</span><span class="o">-</span><span class="n">t0</span><span class="p">)</span><span class="o">/</span><span class="mf">1e9</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
@@ -1612,13 +1620,13 @@ Runtime: 0.17 seconds
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>window = ns_delta(hours=1)
-start_time = datetime_to_ns(start)
-end_time = start_time + window
+<span></span><span class="n">window</span> <span class="o">=</span> <span class="n">ns_delta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">start_time</span> <span class="o">=</span> <span class="n">datetime_to_ns</span><span class="p">(</span><span class="n">start</span><span class="p">)</span>
+<span class="n">end_time</span> <span class="o">=</span> <span class="n">start_time</span> <span class="o">+</span> <span class="n">window</span>
 
-t0 = currently_as_ns()
-statpoints = stream.values(start_time, end_time)
-print('Runtime: %.2f seconds'%((currently_as_ns()-t0)/1e9))
+<span class="n">t0</span> <span class="o">=</span> <span class="n">currently_as_ns</span><span class="p">()</span>
+<span class="n">statpoints</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">start_time</span><span class="p">,</span> <span class="n">end_time</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Runtime: </span><span class="si">%.2f</span><span class="s1"> seconds'</span><span class="o">%</span><span class="p">((</span><span class="n">currently_as_ns</span><span class="p">()</span><span class="o">-</span><span class="n">t0</span><span class="p">)</span><span class="o">/</span><span class="mf">1e9</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
@@ -1638,13 +1646,13 @@ Runtime: 0.94 seconds
 </div>
 <div class="input_area highlight-ipython3 notranslate">
 <div class="highlight"><pre>
-<span></span>window = ns_delta(hours=3)
-start_time = datetime_to_ns(start)
-end_time = start_time + window
+<span></span><span class="n">window</span> <span class="o">=</span> <span class="n">ns_delta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">start_time</span> <span class="o">=</span> <span class="n">datetime_to_ns</span><span class="p">(</span><span class="n">start</span><span class="p">)</span>
+<span class="n">end_time</span> <span class="o">=</span> <span class="n">start_time</span> <span class="o">+</span> <span class="n">window</span>
 
-t0 = currently_as_ns()
-statpoints = stream.values(start_time, end_time)
-print('Runtime: %.2f seconds'%((currently_as_ns()-t0)/1e9))
+<span class="n">t0</span> <span class="o">=</span> <span class="n">currently_as_ns</span><span class="p">()</span>
+<span class="n">statpoints</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="n">start_time</span><span class="p">,</span> <span class="n">end_time</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Runtime: </span><span class="si">%.2f</span><span class="s1"> seconds'</span><span class="o">%</span><span class="p">((</span><span class="n">currently_as_ns</span><span class="p">()</span><span class="o">-</span><span class="n">t0</span><span class="p">)</span><span class="o">/</span><span class="mf">1e9</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
@@ -1657,6 +1665,8 @@ Runtime: 2.64 seconds
 </pre></div>
 </div>
 </div>
+</section>
+</section>
 <section id="Final-note…">
 <h2>Final note…<a class="headerlink" href="#Final-note%E2%80%A6" title="Permalink to this headline">¶</a>
 </h2>

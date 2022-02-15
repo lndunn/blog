@@ -7,8 +7,7 @@
 Quickstart
 ======================================
 
-Quick Start Guide
-=================================
+This page provides links for users to register, access the platform, and read documentation on our docs-site and blog.
 
 .. toctree::
    :caption: Access the PredictiveGrid

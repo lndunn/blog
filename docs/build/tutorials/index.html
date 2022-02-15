@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Tutorials &#8212; NI4AI Blog 0.1 documentation</title>
+    <title>Code &#8212; NI4AI Blog 0.1 documentation</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet">
   <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -36,7 +36,7 @@
     <link rel="shortcut icon" href="../_static/tree.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Plotter Demo Video" href="plotter-demo.html" />
+    <link rel="next" title="0 - PredictiveGrid in Python" href="quickstart.html" />
     <link rel="prev" title="Exploring Frequency and Phase" href="../workshops/miles.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -85,30 +85,32 @@
 </li>
 
 <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../data/index.html">
+  Data
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../blog/index.html">
-  Posts
+  Learn
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../workshops/index.html">
-  Workshops
+  Watch
  </a>
 </li>
 
 <li class="toctree-l1 current active nav-item">
  <a class="current reference internal nav-link" href="#">
-  Tutorials
+  Code
  </a>
 </li>
 
     
     <li class="nav-item">
         <a class="nav-link nav-external" href="https://btrdb.readthedocs.io/en/latest/">API Docs<i class="fas fa-external-link-alt"></i></a>
-    </li>
-    
-    <li class="nav-item">
-        <a class="nav-link nav-external" href="https://github.com/PingThingsIO/ni4ai-notebooks/tree/main/tutorials">Tutorials<i class="fas fa-external-link-alt"></i></a>
     </li>
     
     <li class="nav-item">
@@ -190,7 +192,7 @@
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../blog/index.html">
-   Posts
+   Learn
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -199,8 +201,8 @@
   </label>
   <ul>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../blog/data/index.html">
-     Data
+    <a class="reference internal" href="../blog/platform/index.html">
+     Platform
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
     <label for="toctree-checkbox-2">
@@ -209,13 +211,33 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/data/events.html">
-       Wide Area Events
+      <a class="reference internal" href="../blog/platform/plotter-demo.html">
+       Plotter Demo
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/data/monitoring.html">
-       Monitoring
+      <a class="reference internal" href="../blog/platform/api-demo.html">
+       Demo: Connecting to the API
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-explained.html">
+       BTrDB Explained
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-queries-pt1.html">
+       Memory Efficient BTrDB Queries: Part 1
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/btrdb-queries-pt2.html">
+       Memory Efficient BTrDB Queries: Part 2
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/platform/benchmarking-results.html">
+       PredictiveGrid Benchmarks
       </a>
      </li>
     </ul>
@@ -230,6 +252,11 @@
      </i>
     </label>
     <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/analysis/quadrature-demodulation.html">
+       Harmonic Phasor Estimation with Quadrature Demodulation
+      </a>
+     </li>
      <li class="toctree-l3">
       <a class="reference internal" href="../blog/analysis/spectral-analysis.html">
        Spectral Analysis (part 1)
@@ -313,7 +340,7 @@
     </ul>
    </li>
    <li class="toctree-l2 has-children">
-    <a class="reference internal" href="../blog/thoughts/index.html">
+    <a class="reference internal" href="../blog/commentary/index.html">
      Commentary
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
@@ -323,27 +350,17 @@
     </label>
     <ul>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/fire-season.html">
+      <a class="reference internal" href="../blog/commentary/fire-season.html">
        Fire season is just around the corner
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/pmu-siting-2.html">
+      <a class="reference internal" href="../blog/commentary/pmu-siting-2.html">
        Choosing where to site distribution PMUs
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/sunshine-data.html">
-       A brief walkthrough of the Sunshine uPMU dataset
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/btrdb-explained.html">
-       BTrDB Explained
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/thoughts/ekg-data.html">
+      <a class="reference internal" href="../blog/commentary/ekg-data.html">
        On EKG Data
       </a>
      </li>
@@ -359,16 +376,6 @@
      </i>
     </label>
     <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/ni4ai/demo-1.html">
-       Demo (Part 2): Exploring Data in “The Plotter”
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../blog/ni4ai/demo-2.html">
-       Demo (Part 2): Establishing an API Connection
-      </a>
-     </li>
      <li class="toctree-l3">
       <a class="reference internal" href="../blog/ni4ai/add-sensors.html">
        Stream Data to NI4AI
@@ -389,13 +396,18 @@
        Expertise for Experts
       </a>
      </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../blog/ni4ai/sunshine-data.html">
+       A brief walkthrough of the Sunshine uPMU dataset
+      </a>
+     </li>
     </ul>
    </li>
   </ul>
  </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="../workshops/index.html">
-   Workshops
+   Watch
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
   <label for="toctree-checkbox-6">
@@ -432,7 +444,7 @@
  </li>
  <li class="toctree-l1 current active has-children">
   <a class="current reference internal" href="#">
-   Tutorials
+   Code
   </a>
   <input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
   <label for="toctree-checkbox-7">
@@ -441,8 +453,8 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="plotter-demo.html">
-     Plotter Demo Video
+    <a class="reference internal" href="quickstart.html">
+     0 - PredictiveGrid in Python
     </a>
    </li>
    <li class="toctree-l2">
@@ -462,7 +474,7 @@
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="plots.html">
-     Basic Plots
+     4 - Basic Plots
     </a>
    </li>
    <li class="toctree-l2">
@@ -490,6 +502,11 @@
      9 - Visualizing Aggregates
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ingestion.html">
+     10 - Data Ingestion
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toctree-l1">
@@ -512,6 +529,11 @@
  <li class="toctree-l1">
   <a class="reference external" href="https://ni4ai.org/about">
    NI4AI
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://ni4ai.org/contact">
+   Contact Us
   </a>
  </li>
 </ul>
@@ -550,115 +572,27 @@
               
               <div>
                 
-  <section id="tutorials">
-<h1>Tutorials<a class="headerlink" href="#tutorials" title="Permalink to this headline">¶</a>
+  <section id="code">
+<h1>Code<a class="headerlink" href="#code" title="Permalink to this headline">¶</a>
 </h1>
-<p>These tutorials are geared at familiarizing new users with navigating and querying data in PredictiveGrid.</p>
-<p>We start with a short video demonstrating <strong>The Plotter</strong>, and then jump into a series of Jupyter Notebooks to help users get the most out of our API.</p>
+<p>This section of the blog provides tutorials and sample code to help new users get started.</p>
 <div class="toctree-wrapper compound">
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Plotter Video</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Python API Tutorials</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="plotter-demo.html">Plotter Demo Video</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">0 - PredictiveGrid in Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="collections.html">1 - Finding Collections &amp; Streams</a></li>
+<li class="toctree-l1"><a class="reference internal" href="streams.html">2 - Working with Streams</a></li>
+<li class="toctree-l1"><a class="reference internal" href="streamsets.html">3 - Working with StreamSets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plots.html">4 - Basic Plots</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statpoints.html">5: Working with StatPoints</a></li>
+<li class="toctree-l1"><a class="reference internal" href="queries.html">6 - Memory Efficient Queries</a></li>
+<li class="toctree-l1"><a class="reference internal" href="metadata.html">7 - Working with Metadata</a></li>
+<li class="toctree-l1"><a class="reference internal" href="windows.html">8 - Windows, aligned windows, and values</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotaggregates.html">9 - Visualizing Aggregates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ingestion.html">10 - Data Ingestion</a></li>
 </ul>
 </div>
 <div class="toctree-wrapper compound">
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">API Use</span></p>
-<ul>
-<li class="toctree-l1">
-<a class="reference internal" href="collections.html">1 - Finding Collections &amp; Streams</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="collections.html#Imports">Imports</a></li>
-<li class="toctree-l2"><a class="reference internal" href="collections.html#Establish-Server-Connection">Establish Server Connection</a></li>
-<li class="toctree-l2"><a class="reference internal" href="collections.html#Narrowing-in-on-specific-collections">Narrowing in on specific collections</a></li>
-<li class="toctree-l2"><a class="reference internal" href="collections.html#Search-By-Collection">Search By Collection</a></li>
-<li class="toctree-l2"><a class="reference internal" href="collections.html#Displaying-Metadata">Displaying Metadata</a></li>
-</ul>
-</li>
-<li class="toctree-l1">
-<a class="reference internal" href="streams.html">2 - Working with Streams</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="streams.html#Imports">Imports</a></li>
-<li class="toctree-l2"><a class="reference internal" href="streams.html#Connect-To-Server">Connect To Server</a></li>
-</ul>
-</li>
-<li class="toctree-l1">
-<a class="reference internal" href="streams.html#Stream-Basics">Stream Basics</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="streams.html#Metadata-Properties">Metadata Properties</a></li>
-<li class="toctree-l2"><a class="reference internal" href="streams.html#Metadata-Methods">Metadata Methods</a></li>
-<li class="toctree-l2"><a class="reference internal" href="streams.html#Metadata-Example">Metadata Example</a></li>
-<li class="toctree-l2"><a class="reference internal" href="streams.html#Stream-Version">Stream Version</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="streams.html#Viewing-Data">Viewing Data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="streams.html#Windowed-Data">Windowed Data</a></li>
-<li class="toctree-l1">
-<a class="reference internal" href="streamsets.html">3 - Working with StreamSets</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="streamsets.html#Imports">Imports</a></li>
-<li class="toctree-l2"><a class="reference internal" href="streamsets.html#Connect-To-Server">Connect To Server</a></li>
-</ul>
-</li>
-<li class="toctree-l1">
-<a class="reference internal" href="plots.html">Basic Plots</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="plots.html#Notebook-Setup">Notebook Setup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="plots.html#Basic-Time-Series-Plot">Basic Time Series Plot</a></li>
-<li class="toctree-l2"><a class="reference internal" href="plots.html#Multiple-Streams-Plot">Multiple Streams Plot</a></li>
-</ul>
-</li>
-<li class="toctree-l1">
-<a class="reference internal" href="statpoints.html">5: Working with StatPoints</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="statpoints.html#Database-structure">Database structure</a></li>
-<li class="toctree-l2"><a class="reference internal" href="statpoints.html#Making-queries-using-aligned_windows">Making queries using <code class="docutils literal notranslate"><span class="pre">aligned_windows</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="statpoints.html#Using-StatPoints">Using StatPoints</a></li>
-<li class="toctree-l2"><a class="reference internal" href="statpoints.html#Using-StatPoints-to-detect-gaps">Using StatPoints to detect gaps</a></li>
-</ul>
-</li>
-<li class="toctree-l1">
-<a class="reference internal" href="queries.html">6 - Memory Efficient Queries</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="queries.html#What-was-the-maximum?">What was the maximum?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="queries.html#OK,-but-when-did-it-happen?">OK, but <em>when</em> did it happen?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="queries.html#Plot-the-result">Plot the result</a></li>
-</ul>
-</li>
-<li class="toctree-l1">
-<a class="reference internal" href="metadata.html">7 - Working with Metadata</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="metadata.html#What-is-Metadata?">What is Metadata?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="metadata.html#Functions-covered:">Functions covered:</a></li>
-<li class="toctree-l2"><a class="reference internal" href="metadata.html#About-the-data">About the data</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="metadata.html#Accessing-metadata-fields">Accessing metadata fields</a></li>
-<li class="toctree-l1"><a class="reference internal" href="metadata.html#Filtering-on-metadata-contents">Filtering on metadata contents</a></li>
-<li class="toctree-l1"><a class="reference internal" href="metadata.html#Using-SQL-to-query-metadata">Using SQL to query metadata</a></li>
-<li class="toctree-l1">
-<a class="reference internal" href="windows.html">8 - Windows, aligned windows, and values</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="windows.html#Functions-used">Functions used</a></li>
-<li class="toctree-l2"><a class="reference internal" href="windows.html#Querying-data">Querying data</a></li>
-<li class="toctree-l2"><a class="reference internal" href="windows.html#That%E2%80%99s-a-lot-of-data!">That’s a lot of data!</a></li>
-</ul>
-</li>
-<li class="toctree-l1">
-<a class="reference internal" href="windows.html#Windows-Queries">Windows Queries</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="windows.html#What-just-happened?">What just happened?</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="windows.html#What-happens-if-we-zoom-in?">What happens if we zoom in?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="windows.html#Aligned-windows">Aligned windows</a></li>
-<li class="toctree-l1"><a class="reference internal" href="windows.html#Getting-more-granular-with-aligned_windows">Getting more granular with aligned_windows</a></li>
-<li class="toctree-l1">
-<a class="reference internal" href="windows.html#When-to-use-values">When to use <code class="docutils literal notranslate"><span class="pre">values</span></code></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="windows.html#Final-note%E2%80%A6">Final note…</a></li>
-<li class="toctree-l2"><a class="reference internal" href="windows.html#aligned_windows-queries-in-action"><code class="docutils literal notranslate"><span class="pre">aligned_windows</span></code> queries in action</a></li>
-<li class="toctree-l2"><a class="reference internal" href="windows.html#values-queries-in-action"><code class="docutils literal notranslate"><span class="pre">values</span></code> queries in action</a></li>
-</ul>
-</li>
-<li class="toctree-l1">
-<a class="reference internal" href="plotaggregates.html">9 - Visualizing Aggregates</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="plotaggregates.html#Select-data">Select data</a></li>
-<li class="toctree-l2"><a class="reference internal" href="plotaggregates.html#Determine-time-interval">Determine time interval</a></li>
-<li class="toctree-l2"><a class="reference internal" href="plotaggregates.html#Choose-time-interval">Choose time interval</a></li>
-<li class="toctree-l2"><a class="reference internal" href="plotaggregates.html#Weekly">Weekly</a></li>
-<li class="toctree-l2"><a class="reference internal" href="plotaggregates.html#Daily">Daily</a></li>
-</ul>
-</li>
-</ul>
 </div>
 </section>
 
@@ -676,10 +610,10 @@
             <p class="prev-next-title">Exploring Frequency and Phase</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="plotter-demo.html" title="next page">
+    <a class='right-next' id="next-link" href="quickstart.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Plotter Demo Video</p>
+        <p class="prev-next-title">0 - PredictiveGrid in Python</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
