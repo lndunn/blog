@@ -6,6 +6,7 @@ Analytics
    :caption: Learn More
    :maxdepth: 1
 
+   quadrature-demodulation
    spectral-analysis
    disaggregation
    angle-differencing
