@@ -1,6 +1,6 @@
-==========
+===================
 Point-on-wave Data
-==========
+===================
    
 .. toctree::
    :caption: Point-on-wave Data
