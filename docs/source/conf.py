@@ -92,4 +92,4 @@ html_static_path = ['_static']
 email_automode = True
 
 
-master_doc = 'source'
+master_doc = 'index'
