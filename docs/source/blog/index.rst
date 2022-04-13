@@ -1,6 +1,6 @@
-==========
-Learn
-==========
+================
+Learning Center
+================
 
 .. toctree::
    :caption: Learn more about the platform, data, and applications.

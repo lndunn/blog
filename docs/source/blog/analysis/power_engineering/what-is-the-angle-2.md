@@ -1,4 +1,4 @@
-# What’s the Angle? (Part 2)
+# Phase Angles (Part 2)
 ## Working with PMU Angle Data
 *Author: Miles Rusch*
 

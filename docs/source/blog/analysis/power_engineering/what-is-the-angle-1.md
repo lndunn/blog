@@ -1,4 +1,4 @@
-# What’s the Angle? (Part 1)
+# Phase Angles (Part 1)
 ## Understanding PMU Angle Measurements
 *Author: Mohini Bariya*
 

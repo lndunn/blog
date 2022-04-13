@@ -1,4 +1,4 @@
-﻿# Spectral Analysis (part 1)
+﻿# Spectral Analysis (Part 1)
 > Author: Miles Rusch
 > 
 > April 26, 2021

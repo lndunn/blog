@@ -1,5 +1,5 @@
 ---
-# Demo: Connecting to the API
+# API Demo
 
 In this demo, we'll use the blog post “A brief walkthrough of the Sunshine uPMU dataset" ([here]()) to show you how you can access the API. 
 

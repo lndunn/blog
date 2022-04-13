@@ -4,22 +4,19 @@
    contain the root `toctree` directive.
 
 ======================================
-Quickstart
+PredictiveGrid Quickstart Guide
 ======================================
 
-This page provides links for users to register, access the platform, and read documentation on our docs-site and blog.
-
 .. toctree::
-   :caption: Access the PredictiveGrid
+   :caption: Platform Access
    :maxdepth: 1
 
    Register <https://ni4ai.org>
    Plotter <https://plot.ni4ai.org>
    Jupyterhub <https://jupyter.ni4ai.org>
-   Data <https://ni4ai.org/datasets>
 
 .. toctree::
-   :caption: Learn More
+   :caption: Learning Tools
    :maxdepth: 1
 
    ../blog/index
